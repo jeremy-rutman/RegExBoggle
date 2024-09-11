@@ -50,7 +50,7 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
     word_so_far += letter_matrix[i][j]
-    if word_so_far in legal_words:
+    if word_so_far in LEGAL_WORDS:
         allwords.append(word_so_far)
     if not can_word_start_like_this(word_so_far):
         return
@@ -58,13 +58,16 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     for neighbor in neighbors:
     #    if letter_matrix[neighbor[0]][neighbor[1]]!=die_used_in_word:
         words = find_words_from_here(letter_matrix,neighbor,word_so_far)
-        allwords.append(words)
+        if words:
+            allwords.append(words)
     return allwords
 
 def can_word_start_like_this(word_so_far):
-    # this check should kick out words that can't possibly begin like this inst. of entire word
+    # this check should kick out words that can't possibly begin like this
+    # currently pretty inefficient  , there is prob. some smart way to do this
+    # we already checked if the word itself is in the dictionary of legal words, so no need to check that
     l = len(word_so_far)
-    word_beginnings_of_greater_length = [word[0:l] for word in legal_words if len(word)>l]
+    word_beginnings_of_greater_length = [word[0:l] for word in LEGAL_WORDS if len(word)>l]
     if word_so_far.lower() in word_beginnings_of_greater_length:
         return True
     return False
@@ -87,8 +90,8 @@ standard_dies = [
         ['H','I','M','N','U','Qu'],
         ['H','L','N','N','R','Z']]
 
+LEGAL_WORDS = read_dictionary()
 
-legal_words = read_dictionary()
 board = generate_boggleboard(standard_dies)
 print_board(board)
 found_words = find_words(board)
