@@ -26,7 +26,7 @@ def print_board(boggleboard):
            print(f'{boggleboard[col+row*4]}\t',end='')
         print('')
 
-dies = [['A','A','E','E','G','N'],
+standard_dies = [['A','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
         ['A','C','H','O','P','S'],
         ['A','F','F','K','P','S'],
@@ -45,5 +45,5 @@ dies = [['A','A','E','E','G','N'],
 
 
 words = read_dictionary()
-board = generate_boggleboard(dies)
+board = generate_boggleboard(standard_dies)
 print_board(board)
