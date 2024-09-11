@@ -1,6 +1,8 @@
 # see http://www.bananagrammer.com/2013/10/the-boggle-cube-redesign-and-its-effect.html
 
 import random
+from ftplib import all_errors
+
 
 def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     words = []
@@ -18,13 +20,33 @@ def generate_boggleboard(dies):
     die_locations = [i for i in range(n_dies)] #indices for die locations
     random.shuffle(die_locations)
     die_values = [dies[die_location][random.randint(0,5)] for die_location in die_locations]
-    return die_values
+    letter_matrix = [[die_values[i+4*j] for i in range(4)] for j in range(4)]
 
-def print_board(boggleboard):
+    return letter_matrix
+
+
+def print_board(letter_matrix):
     for row in range(4):
         for col in range(4):
-           print(f'{boggleboard[col+row*4]}\t',end='')
+           print(f'{letter_matrix[row][col]}\t',end='')
         print('')
+
+def find_words(letter_matrix):
+    board_size = len(letter_matrix[0]) # size of a row
+    all_words = []
+    for i in range(board_size):
+        for j in range(board_size):
+            words = find_words_starting_here(letter_matrix,(i,j))
+            all_words.append(words)
+    return all_words
+
+
+die_used_in_word=('\0')
+def find_words_starting_here(letter_matrix,position):
+    [i,j] = position
+    neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
+    neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
+
 
 standard_dies = [['A','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
@@ -47,3 +69,4 @@ standard_dies = [['A','A','E','E','G','N'],
 words = read_dictionary()
 board = generate_boggleboard(standard_dies)
 print_board(board)
+find_words(board)
