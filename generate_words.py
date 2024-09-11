@@ -34,19 +34,32 @@ def find_words(letter_matrix):
     all_words = []
     for i in range(board_size):
         for j in range(board_size):
-            words = find_words_starting_here(letter_matrix,(i,j))
+            words = find_words_from_here(letter_matrix,(i,j),word_so_far='')
             all_words.append(words)
     return all_words
 
 
 die_used_in_word=('\0')
-def find_words_starting_here(letter_matrix,position):
+def find_words_from_here(letter_matrix,position,word_so_far):
+    allwords = []
     [i,j] = position
+    if letter_matrix[i][j] == die_used_in_word:
+        return
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
+    word_so_far += letter_matrix[i][j]
+    if word_so_far in legal_words:  #this check should kick out words that can't possibly begin like this inst. of entire word
+        allwords.append(word_so_far)
+    letter_matrix[i][j]=die_used_in_word
+    for neighbor in neighbors:
+    #    if letter_matrix[neighbor[0]][neighbor[1]]!=die_used_in_word:
+        words = find_words_from_here(letter_matrix,neighbor,word_so_far)
+        allwords.append(words)
+    return allwords
 
 
-standard_dies = [['A','A','E','E','G','N'],
+standard_dies = [
+        ['A','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
         ['A','C','H','O','P','S'],
         ['A','F','F','K','P','S'],
@@ -64,6 +77,7 @@ standard_dies = [['A','A','E','E','G','N'],
         ['H','L','N','N','R','Z']]
 
 
-words = read_dictionary()
+legal_words = read_dictionary()
 board = generate_boggleboard(standard_dies)
 print_board(board)
+found_words = find_words(board)
