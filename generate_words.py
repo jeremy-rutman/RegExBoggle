@@ -1,8 +1,6 @@
 # see http://www.bananagrammer.com/2013/10/the-boggle-cube-redesign-and-its-effect.html
 
 import random
-from ftplib import all_errors
-
 
 def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     words = []
@@ -69,4 +67,3 @@ standard_dies = [['A','A','E','E','G','N'],
 words = read_dictionary()
 board = generate_boggleboard(standard_dies)
 print_board(board)
-find_words(board)
