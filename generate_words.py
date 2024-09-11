@@ -20,12 +20,19 @@ def generate_boggleboard(dies):
     die_values = [dies[die_location][random.randint(0,5)] for die_location in die_locations]
     return die_values
 
+def print_board(boggleboard):
+    for row in range(4):
+        for col in range(4):
+           print(f'{boggleboard[col+row*4]}\t',end='')
+        print('')
+
 dies = [['A','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
         ['A','C','H','O','P','S'],
         ['A','F','F','K','P','S'],
         ['A','O','O','T','T','W'],
         ['C','I','M','O','T','U'],
+        ['D','E','I','L','R','X'],
         ['D','E','L','R','V','Y'],
         ['D','I','S','T','T','Y'],
         ['E','E','G','H','N','W'],
@@ -39,3 +46,4 @@ dies = [['A','A','E','E','G','N'],
 
 words = read_dictionary()
 board = generate_boggleboard(dies)
+print_board(board)
