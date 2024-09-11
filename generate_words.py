@@ -56,7 +56,6 @@ def find_words_from_here(letter_matrix,position,word_so_far):
         return
     letter_matrix[i][j]=die_used_in_word
     for neighbor in neighbors:
-    #    if letter_matrix[neighbor[0]][neighbor[1]]!=die_used_in_word:
         words = find_words_from_here(letter_matrix,neighbor,word_so_far)
         if words:
             allwords.append(words)
