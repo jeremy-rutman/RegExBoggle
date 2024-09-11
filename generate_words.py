@@ -50,7 +50,7 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
     word_so_far += letter_matrix[i][j]
-    if word_so_far in LEGAL_WORDS:
+    if word_so_far.lower() in LEGAL_WORDS:
         allwords.append(word_so_far)
     if not can_word_start_like_this(word_so_far):
         return
@@ -59,7 +59,8 @@ def find_words_from_here(letter_matrix,position,word_so_far):
         words = find_words_from_here(letter_matrix,neighbor,word_so_far)
         if words:
             allwords.append(words)
-    return allwords
+    if allwords:
+        return allwords
 
 def can_word_start_like_this(word_so_far):
     # this check should kick out words that can't possibly begin like this
@@ -94,3 +95,4 @@ LEGAL_WORDS = read_dictionary()
 board = generate_boggleboard(standard_dies)
 print_board(board)
 found_words = find_words(board)
+print(found_words)
