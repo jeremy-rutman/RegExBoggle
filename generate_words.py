@@ -1,6 +1,8 @@
 # see http://www.bananagrammer.com/2013/10/the-boggle-cube-redesign-and-its-effect.html
 
 import random
+from typing import LiteralString
+
 
 def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     words = []
@@ -48,8 +50,10 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
     word_so_far += letter_matrix[i][j]
-    if word_so_far in legal_words:  #this check should kick out words that can't possibly begin like this inst. of entire word
+    if word_so_far in legal_words:
         allwords.append(word_so_far)
+    if not can_word_start_like_this(word_so_far):
+        return
     letter_matrix[i][j]=die_used_in_word
     for neighbor in neighbors:
     #    if letter_matrix[neighbor[0]][neighbor[1]]!=die_used_in_word:
@@ -57,6 +61,13 @@ def find_words_from_here(letter_matrix,position,word_so_far):
         allwords.append(words)
     return allwords
 
+def can_word_start_like_this(word_so_far):
+    # this check should kick out words that can't possibly begin like this inst. of entire word
+    l = len(word_so_far)
+    word_beginnings_of_greater_length = [word[0:l] for word in legal_words if len(word)>l]
+    if word_so_far.lower() in word_beginnings_of_greater_length:
+        return True
+    return False
 
 standard_dies = [
         ['A','A','E','E','G','N'],
