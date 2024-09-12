@@ -1,4 +1,4 @@
-# RegExScrabble
+# RegExBoggle
 tools for designing regex boggle
 
 Working for regular boggle at this point 
