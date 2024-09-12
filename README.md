@@ -1,2 +1,2 @@
-# RegExScrabble
-tools for designing regex scrabble
+# RegExBoggle
+tools for designing regex Boggle
