@@ -51,21 +51,22 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     :param word_so_far:
     :return:
     '''
+    current_matrix = [[l for l in row] for row in letter_matrix]
     allwords = []
     current_word=None
     [i,j] = position
-    if letter_matrix[i][j] == die_used_in_word:
+    if current_matrix[i][j] == die_used_in_word:
         return []
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
-    word_so_far += letter_matrix[i][j]
-    letter_matrix[i][j]=die_used_in_word
+    word_so_far += current_matrix[i][j]
+    current_matrix[i][j]=die_used_in_word
     if not can_word_start_like_this(word_so_far):
         return []
     if word_so_far.lower() in LEGAL_WORDS:
         allwords.append( word_so_far)
     for neighbor in neighbors:
-        words = find_words_from_here(letter_matrix,neighbor,word_so_far)
+        words = find_words_from_here(current_matrix,neighbor,word_so_far)
         for word in words:
             if not word in allwords:
                 allwords.append(word)
@@ -102,6 +103,10 @@ standard_dies = [
 LEGAL_WORDS = read_dictionary()
 
 board = generate_boggleboard(standard_dies)
+board = [['R',	'I',	'E',	'L'],
+['A',	'Qu',	'D',	'E'	],
+['T'	,'V',	'R',	'P'],
+['O',	'C',	'I',	'T'	]]
 print_board(board)
 found_words = find_words(board)
 print(found_words)
