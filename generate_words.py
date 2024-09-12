@@ -37,27 +37,38 @@ def find_words(letter_matrix):
     for i in range(board_size):
         for j in range(board_size):
             words = find_words_from_here(letter_matrix,(i,j),word_so_far='')
-            all_words.append(words)
+            print(f'words starting from {i},{j}:{words}')
+            all_words+=words
     return all_words
 
 
 die_used_in_word=('\0')
 def find_words_from_here(letter_matrix,position,word_so_far):
+    '''
+    This is currently returning a nested list for some reason
+    :param letter_matrix:
+    :param position:
+    :param word_so_far:
+    :return:
+    '''
     allwords = []
+    current_word=None
     [i,j] = position
     if letter_matrix[i][j] == die_used_in_word:
         return []
     neighbors = [[i-1,j-1],[i,j-1],[i+1,j-1],[i-1,j],[i+1,j],[i-1,j+1],[i,j+1],[i+1,j+1]]  #all nearest neighbors inc. diagonals
     neighbors = [neighbor for neighbor in neighbors if neighbor[0]>=0 and neighbor[0]<4 and neighbor[1]>=0 and neighbor[1]<4 ]
     word_so_far += letter_matrix[i][j]
-    if word_so_far.lower() in LEGAL_WORDS:
-        allwords.append(word_so_far)
+    letter_matrix[i][j]=die_used_in_word
     if not can_word_start_like_this(word_so_far):
         return []
-    letter_matrix[i][j]=die_used_in_word
+    if word_so_far.lower() in LEGAL_WORDS:
+        allwords.append( word_so_far)
     for neighbor in neighbors:
         words = find_words_from_here(letter_matrix,neighbor,word_so_far)
-        allwords+=words
+        for word in words:
+            if not word in allwords:
+                allwords.append(word)
     return allwords
 
 def can_word_start_like_this(word_so_far):

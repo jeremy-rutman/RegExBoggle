@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="recursive search">
+    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="somewhat closer to working">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_words.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,47 @@
       <option name="project" value="LOCAL" />
       <updated>1726086534874</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="global const CAPITALIZED">
+      <option name="closed" value="true" />
+      <created>1726087058103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087058103</updated>
+    </task>
+    <task id="LOCAL-00012" summary="global const CAPITALIZED">
+      <option name="closed" value="true" />
+      <created>1726087087349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087087349</updated>
+    </task>
+    <task id="LOCAL-00013" summary="cleanup">
+      <option name="closed" value="true" />
+      <created>1726087183175</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087183175</updated>
+    </task>
+    <task id="LOCAL-00014" summary="somewhat closer to working">
+      <option name="closed" value="true" />
+      <created>1726087364748</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087364748</updated>
+    </task>
+    <task id="LOCAL-00015" summary="somewhat closer to working">
+      <option name="closed" value="true" />
+      <created>1726087602071</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087602071</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,20 +217,18 @@
     <MESSAGE value="print board" />
     <MESSAGE value="find nearest neighbors" />
     <MESSAGE value="recursive search" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursive search" />
+    <MESSAGE value="global const CAPITALIZED" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="somewhat closer to working" />
+    <option name="LAST_COMMIT_MESSAGE" value="somewhat closer to working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="14" />
+          <line>63</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
