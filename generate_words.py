@@ -38,7 +38,7 @@ def find_words(letter_matrix):
         for j in range(board_size):
             words = find_words_from_here(letter_matrix,(i,j),word_so_far='')
             print(f'words starting from {i},{j}:{words}')
-            all_words+=words
+            all_words+=words   # this should have a check for dupes. Or de-dupe at end
     return all_words
 
 
