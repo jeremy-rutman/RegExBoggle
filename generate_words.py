@@ -84,8 +84,8 @@ def can_word_start_like_this(word_so_far):
         return True
     return False
 
-def most_prolific_board():
-    max_words = 0
+def board_stats():
+
     all_results=[]
     while(1):
         board = generate_boggleboard(STANDARD_DIES)
@@ -94,20 +94,18 @@ def most_prolific_board():
         all_results.append(n_words)
         avg = np.mean(all_results)
         std = np.std(all_results)
+        min = np.min(all_results)
+        max = np.max(all_results)
         print(f'n words {n_words} avg {avg} std {std}')
-        if n_words>max_words:
-            max_words = n_words
-            print_board(board)
-            print(f'n_words {n_words}')
-
-            with open('most_prolific_board.txt','a') as fp:
-                fp.write(f'n_words {n_words} ')
-                for row in range(4):
-                    for col in range(4):
-                        fp.write(f'{board[row][col]}\t')
-                    fp.write('')
-                fp.write('\n')
-                fp.close()
+        print_board(board)
+        with open('most_prolific_board.txt','a') as fp:
+            fp.write(f'n_words {n_words} avg {avg} std {std} min {min} max {max} N {len(all_results)} board:\t')
+            for row in range(4):
+                for col in range(4):
+                    fp.write(f'{board[row][col]}\t')
+                fp.write('')
+            fp.write('\n')
+            fp.close()
 
 STANDARD_DIES = [
         ['A','A','E','E','G','N'],
@@ -129,7 +127,7 @@ STANDARD_DIES = [
 
 LEGAL_WORDS = read_dictionary()
 
-most_prolific_board()
+board_stats()
 board = generate_boggleboard(STANDARD_DIES)
 board = [['R',	'I',	'E',	'L'],
 ['A',	'Qu',	'D',	'E'	],

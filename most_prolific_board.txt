@@ -5,3 +5,36 @@ n_words 94 V	O	R	M	K	R	S	E	H	A	T	W	T	U	Y	D
 n_words 113 O	T	E	M	S	O	S	R	Y	R	T	H	P	E	G	M
 n_words 24 D	H	H	C	N	O	Y	Z	S	I	G	N	T	T	T	R	
 n_words 153 G	S	R	D	E	M	E	E	T	T	N	E	M	O	S	S	
+n_words 46 avg 46.0 std 0.0 X	R	T	Y	U	E	U	E	E	I	Y	O	N	O	L	F	
+n_words 65 avg 36.25 std 21.579793789561567 T	V	N	C	H	N	T	I	G	E	U	L	L	A	A	B	
+n_words 75 avg 42.125 std 22.5079846943257 A	S	N	E	Y	I	H	G	T	S	D	P	S	O	R	I	
+n_words 26 avg 26.0 std 0.0 min 26 max 26 S	O	S	C	T	Z	E	Y	W	E	W	B	I	S	S	E	
+n_words 46 avg 36.0 std 10.0 min 26 max 46 N	O	Y	F	D	R	Z	C	A	H	T	I	S	W	I	Y	
+n_words 105 avg 59.0 std 33.53605025441527 min 26 max 105 T	A	W	I	C	R	X	P	H	A	I	T	T	N	S	B	
+n_words 45 avg 55.5 std 29.669007398293594 min 26 max 105 N	S	I	C	K	D	N	B	I	E	Y	E	E	Qu	E	O	
+n_words 45 avg 53.4 std 26.867080228413357 min 26 max 105 G	N	N	Y	R	O	F	E	E	R	C	S	U	B	P	L	
+n_words 18 avg 47.5 std 27.849296819369307 min 18 max 105 Y	G	D	L	S	H	W	L	N	W	S	K	T	B	A	T	
+n_words 81 avg 52.285714285714285 std 28.32320747430723 min 18 max 105 L	X	A	F	Y	M	W	D	A	E	E	T	R	S	O	A	
+n_words 36 avg 50.25 std 27.0358558214827 min 18 max 105 I	E	O	S	I	V	O	R	T	B	O	E	W	E	M	K	
+n_words 34 avg 48.44444444444444 std 25.99620105199609 min 18 max 105 W	V	O	S	T	E	E	O	H	L	M	Z	U	Y	B	T	
+n_words 98 avg 53.4 std 28.796527568441302 min 18 max 105 R	N	C	D	Z	M	O	D	B	A	N	E	S	O	R	P	
+n_words 80 avg 55.81818181818182 std 28.5014136230538 min 18 max 105 G	F	A	I	D	I	N	W	T	R	T	I	N	N	O	H	
+n_words 73 avg 57.25 std 27.698149757700424 min 18 max 105 O	I	C	T	E	B	R	A	N	A	R	D	H	T	Qu	L	
+n_words 4 avg 53.15384615384615 std 30.158162956310985 min 4 max 105 T	A	U	V	U	Z	D	S	O	F	G	L	E	A	J	C	
+n_words 40 avg 52.214285714285715 std 29.257913633820195 min 4 max 105 K	O	R	O	L	W	Qu	T	R	E	R	N	I	N	E	R	
+n_words 64 avg 53.0 std 28.41830396065184 min 4 max 105 W	E	R	K	L	H	O	T	T	E	N	A	D	H	N	E	
+n_words 30 avg 51.5625 std 28.07349450549397 min 4 max 105 O	U	Z	G	O	Y	U	D	P	E	R	P	H	I	I	A	
+n_words 46 avg 51.23529411764706 std 27.26672052966595 min 4 max 105 E	O	A	L	T	I	O	H	W	T	T	E	S	I	O	I	
+n_words 78 avg 52.72222222222222 std 27.198459015898422 min 4 max 105 Y	T	O	T	E	P	E	U	E	O	S	O	W	R	N	L	
+n_words 23 avg 51.1578947368421 std 27.29230305588341 min 4 max 105 H	T	F	G	Qu	C	T	C	R	Y	H	I	E	D	A	O	
+n_words 43 avg 50.75 std 26.66059826785588 min 4 max 105 N	A	T	Y	P	B	R	S	H	I	V	T	N	T	H	N	
+n_words 18 avg 18.0 std 0.0 min 18 max 18 N 1 D	E	E	X	C	V	P	B	H	E	T	T	H	M	W	I	
+n_words 48 avg 33.0 std 15.0 min 18 max 48 N 2 I	R	A	L	Z	R	I	O	C	L	D	F	O	W	O	M	
+n_words 55 avg 40.333333333333336 std 16.048537489614297 min 18 max 55 N 3 I	O	N	D	V	E	S	O	U	T	O	I	E	T	Z	N	
+n_words 37 avg 39.5 std 13.97318861248212 min 18 max 55 N 4 O	N	T	Qu	H	E	T	S	O	E	H	X	E	S	I	R	
+n_words 31 avg 37.8 std 12.952219886953742 min 18 max 55 N 5 A	M	T	N	N	E	R	R	H	I	J	S	I	I	T	X	
+n_words 34 avg 37.166666666666664 std 11.908213785264167 min 18 max 55 N 6 M	W	L	K	C	M	O	I	E	E	O	R	T	E	O	N	
+n_words 59 avg 40.285714285714285 std 13.413365250634861 min 18 max 59 N 7 B	I	E	A	S	E	P	F	H	E	E	T	W	C	H	L	
+n_words 66 avg 43.5 std 15.157506391224118 min 18 max 66 N 8 S	O	D	O	P	T	E	T	M	R	Z	T	S	A	H	U	
+n_words 2 avg 38.888888888888886 std 19.347376764159037 min 2 max 66 N 9 O	H	O	J	T	Z	C	V	K	T	Qu	N	L	N	S	T	
+n_words 53 avg 40.3 std 18.83640093011401 min 2 max 66 N 10 B	L	R	N	Y	A	M	N	T	Y	A	E	X	K	T	T	
