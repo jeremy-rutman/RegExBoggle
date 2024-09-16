@@ -9,6 +9,8 @@ def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     with open(dictionaryname) as fp:
         words = fp.readlines()
         words = [word.rstrip('\n') for word in words]
+        words = [word for word in words if len(word)>3] #legal boggle words have length 4 or more
+        print(f'{len(words)} legal boggle words in dictionary {dictionaryname}')
         return words
 
 def generate_boggleboard(dies):
@@ -82,7 +84,27 @@ def can_word_start_like_this(word_so_far):
         return True
     return False
 
-standard_dies = [
+def most_prolific_board():
+    max_words = 0
+    while(1):
+        board = generate_boggleboard(STANDARD_DIES)
+        n_words=len(find_words(board))
+        print(f'n words {n_words}')
+        if n_words>max_words:
+            max_words = n_words
+            print_board(board)
+            print(f'n_words {n_words}')
+
+            with open('most_prolific_board.txt','a') as fp:
+                fp.write(f'n_words {n_words} ')
+                for row in range(4):
+                    for col in range(4):
+                        fp.write(f'{board[row][col]}\t')
+                    fp.write('')
+                fp.write('\n')
+                fp.close()
+
+STANDARD_DIES = [
         ['A','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
         ['A','C','H','O','P','S'],
@@ -102,7 +124,8 @@ standard_dies = [
 
 LEGAL_WORDS = read_dictionary()
 
-board = generate_boggleboard(standard_dies)
+most_prolific_board()
+board = generate_boggleboard(STANDARD_DIES)
 board = [['R',	'I',	'E',	'L'],
 ['A',	'Qu',	'D',	'E'	],
 ['T'	,'V',	'R',	'P'],

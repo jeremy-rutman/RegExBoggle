@@ -1,0 +1,5 @@
+n_words 36 R	T	T	F	G	E	B	T	Qu	D	N	E	O	V	C	E
+n_words 37 E	Y	O	T	O	S	H	X	E	E	O	F	W	N	M	G
+n_words 73 A	W	O	O	O	L	E	G	I	H	S	R	E	P	T	Qu
+n_words 94 V	O	R	M	K	R	S	E	H	A	T	W	T	U	Y	D
+n_words 113 O	T	E	M	S	O	S	R	Y	R	T	H	P	E	G	M

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="finally this looks right">
+    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="boggle not scrabble jeez">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_words.py" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jeremy-rutman/RegExScrabble&quot;,
+    &quot;url&quot;: &quot;https://github.com/jeremy-rutman/RegExBoggle&quot;,
     &quot;accountId&quot;: &quot;222daaa8-1d60-40ac-9031-6bc679afff55&quot;
   }
 }</component>
@@ -56,12 +56,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.generate_words.executor": "Debug",
+    "Python.Unnamed.executor": "Debug",
+    "Python.generate_words.executor": "Run",
     "Python.random.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/jr/Dropbox/projects/PycharmProjects/RegExBoggle"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="RegExScrabble" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -214,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726155408957</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="scrabble not boggle jeez">
+      <option name="closed" value="true" />
+      <created>1726155522088</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726155522088</updated>
+    </task>
+    <task id="LOCAL-00019" summary="boggle not scrabble jeez">
+      <option name="closed" value="true" />
+      <created>1726155541751</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726155541751</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,15 +280,22 @@
     <MESSAGE value="somewhat closer to working" />
     <MESSAGE value="better output , seems to miss a lot of words" />
     <MESSAGE value="finally this looks right" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally this looks right" />
+    <MESSAGE value="scrabble not boggle jeez" />
+    <MESSAGE value="boggle not scrabble jeez" />
+    <option name="LAST_COMMIT_MESSAGE" value="boggle not scrabble jeez" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate_words.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
