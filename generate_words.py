@@ -1,6 +1,7 @@
 # see http://www.bananagrammer.com/2013/10/the-boggle-cube-redesign-and-its-effect.html
 
 import random
+import numpy as np
 from typing import LiteralString
 
 
@@ -47,7 +48,6 @@ def find_words(letter_matrix):
 die_used_in_word=('\0')
 def find_words_from_here(letter_matrix,position,word_so_far):
     '''
-    This is currently returning a nested list for some reason
     :param letter_matrix:
     :param position:
     :param word_so_far:
@@ -86,10 +86,15 @@ def can_word_start_like_this(word_so_far):
 
 def most_prolific_board():
     max_words = 0
+    all_results=[]
     while(1):
         board = generate_boggleboard(STANDARD_DIES)
+        print_board(board)
         n_words=len(find_words(board))
-        print(f'n words {n_words}')
+        all_results.append(n_words)
+        avg = np.mean(all_results)
+        std = np.std(all_results)
+        print(f'n words {n_words} avg {avg} std {std}')
         if n_words>max_words:
             max_words = n_words
             print_board(board)
