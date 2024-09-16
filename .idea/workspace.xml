@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="including words in dictionary only if length&gt;=4 , for boggle legality. This avoids checking in code .">
-      <change afterPath="$PROJECT_DIR$/most_prolific_board.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RegExScrabble.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RegExScrabble.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="more stats, write every time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/most_prolific_board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/most_prolific_board.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +265,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726493165050</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="keep track of avg and std of n_words to compare standard boggle w regex">
+      <option name="closed" value="true" />
+      <created>1726493696565</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726493696565</updated>
+    </task>
+    <task id="LOCAL-00022" summary="keep track of avg and std of n_words to compare standard boggle w regex">
+      <option name="closed" value="true" />
+      <created>1726493704092</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726493704092</updated>
+    </task>
+    <task id="LOCAL-00023" summary="more stats, write every time">
+      <option name="closed" value="true" />
+      <created>1726494652429</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726494652429</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,20 +316,17 @@
     <MESSAGE value="scrabble not boggle jeez" />
     <MESSAGE value="boggle not scrabble jeez" />
     <MESSAGE value="including words in dictionary only if length&gt;=4 , for boggle legality. This avoids checking in code ." />
-    <option name="LAST_COMMIT_MESSAGE" value="including words in dictionary only if length&gt;=4 , for boggle legality. This avoids checking in code ." />
+    <MESSAGE value="keep track of avg and std of n_words to compare standard boggle w regex" />
+    <MESSAGE value="more stats, write every time" />
+    <option name="LAST_COMMIT_MESSAGE" value="more stats, write every time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

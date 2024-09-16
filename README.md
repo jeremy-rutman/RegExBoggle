@@ -43,3 +43,9 @@ words starting from 3,1:['COT', 'CRIPE', 'CREED', 'CREEL', 'CIRQuE', 'CIRE']
 words starting from 3,2:['IRE', 'IT']
 
 words starting from 3,3:['TRICOT', 'TRIP', 'TRIPE', 'TREE', 'TI', 'TIC', 'TIRE', 'TIRED', 'TIP']
+
+Impossible board (with no legal words):
+D   G	W	I	
+U	P	Y	B	
+I	F	W	Y	
+W	N	M	L

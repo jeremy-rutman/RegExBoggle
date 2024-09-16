@@ -10,7 +10,7 @@ def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     with open(dictionaryname) as fp:
         words = fp.readlines()
         words = [word.rstrip('\n') for word in words]
-        words = [word for word in words if len(word)>3] #legal boggle words have length 4 or more
+        words = [word for word in words if len(word)>2] #legal boggle words have length 3 or more
         print(f'{len(words)} legal boggle words in dictionary {dictionaryname}')
         return words
 
