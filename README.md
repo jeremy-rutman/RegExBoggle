@@ -16,3 +16,5 @@ Hardest board (9 words) was:
     D	S	N	T
     W	V	G	T	
     H	A	Z	W
+Words on hardest board - 
+['SWAG', 'WHA', 'WAG', 'WAGS', 'VAW', 'HAW', 'HAWS', 'HAG', 'ZAG']

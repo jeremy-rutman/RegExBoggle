@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="more stats, write every time">
+    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="legal words are 3 letters or more, not 4...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/most_prolific_board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/most_prolific_board.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.RegExBoggle.executor&quot;: &quot;Run&quot;,
     &quot;Python.Unnamed.executor&quot;: &quot;Debug&quot;,
     &quot;Python.generate_words.executor&quot;: &quot;Run&quot;,
     &quot;Python.random.executor&quot;: &quot;Run&quot;,
@@ -66,7 +68,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="RegExBoggle" type="PythonConfigurationType" factoryName="Python">
       <module name="RegExScrabble" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="generate_words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726494652429</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="legal words are 3 letters or more, not 4...">
+      <option name="closed" value="true" />
+      <created>1726499450487</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726499450487</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,17 +328,7 @@
     <MESSAGE value="including words in dictionary only if length&gt;=4 , for boggle legality. This avoids checking in code ." />
     <MESSAGE value="keep track of avg and std of n_words to compare standard boggle w regex" />
     <MESSAGE value="more stats, write every time" />
-    <option name="LAST_COMMIT_MESSAGE" value="more stats, write every time" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generate_words.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="legal words are 3 letters or more, not 4..." />
+    <option name="LAST_COMMIT_MESSAGE" value="legal words are 3 letters or more, not 4..." />
   </component>
 </project>

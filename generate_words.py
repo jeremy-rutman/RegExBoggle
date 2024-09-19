@@ -4,6 +4,7 @@ import random
 import numpy as np
 from typing import LiteralString
 
+REGEX_CHARS = ['.','*']
 
 def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     words = []
@@ -13,6 +14,8 @@ def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
         words = [word for word in words if len(word)>2] #legal boggle words have length 3 or more
         print(f'{len(words)} legal boggle words in dictionary {dictionaryname}')
         return words
+
+LEGAL_WORDS = read_dictionary()
 
 def generate_boggleboard(dies):
     '''
@@ -80,7 +83,7 @@ def can_word_start_like_this(word_so_far):
     # this check should kick out words that can't possibly begin like this
     # currently pretty inefficient  , there is prob. some smart way to do this
     # we already checked if the word itself is in the dictionary of legal words, so no need to check that
-    if set.intersection(set.REGEX_CHARS,set(word_so_far)):   #just allow everything for now
+    if set.intersection(set(REGEX_CHARS),set(word_so_far)):   #just allow everything for now
         return True
     l = len(word_so_far)
     word_beginnings_of_greater_length = [word[0:l] for word in LEGAL_WORDS if len(word)>l]
@@ -94,8 +97,8 @@ def board_stats():
     with open('board_stats.txt', 'a') as fp:
         fp.write('dies ')
         for i,die in enumerate(dies):
-            fp.write(f'die {i}:
-                     for s in die:
+            fp.write(f'die {i}:')
+            for s in die:
                 fp.write(f'die {i}:{s}\t')
         fp.write('\n')
         while(1):
@@ -154,15 +157,18 @@ ALTERNATE_DIES = [
         ['E','L','R','T','T','Y'],
         ['H','I','M','N','U','Qu'],
         ['H','L','N','N','R','Z']]
-REGEX_CHARS = ['.','*']
-LEGAL_WORDS = read_dictionary()
 
-board_stats()
-board = generate_boggleboard(STANDARD_DIES)
+
+#board_stats()
+#board = generate_boggleboard(STANDARD_DIES)
 board = [['R',	'I',	'E',	'L'],
 ['A',	'Qu',	'D',	'E'	],
 ['T'	,'V',	'R',	'P'],
 ['O',	'C',	'I',	'T'	]]
+board = [[  'S'	,'S',	'X',	'K'],
+[    'D',	'S',	'N',	'T'],
+    ['W',	'V',	'G',	'T'],
+[    'H',	'A',	'Z',	'W']]
 print_board(board)
 found_words = find_words(board)
 print(found_words)
