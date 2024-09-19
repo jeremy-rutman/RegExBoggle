@@ -1,252 +1,485 @@
-n_words 36 R	T	T	F	G	E	B	T	Qu	D	N	E	O	V	C	E
-n_words 37 E	Y	O	T	O	S	H	X	E	E	O	F	W	N	M	G
-n_words 73 A	W	O	O	O	L	E	G	I	H	S	R	E	P	T	Qu
-n_words 94 V	O	R	M	K	R	S	E	H	A	T	W	T	U	Y	D
-n_words 113 O	T	E	M	S	O	S	R	Y	R	T	H	P	E	G	M
-n_words 24 D	H	H	C	N	O	Y	Z	S	I	G	N	T	T	T	R	
-n_words 153 G	S	R	D	E	M	E	E	T	T	N	E	M	O	S	S	
-n_words 46 avg 46.0 std 0.0 X	R	T	Y	U	E	U	E	E	I	Y	O	N	O	L	F	
-n_words 65 avg 36.25 std 21.579793789561567 T	V	N	C	H	N	T	I	G	E	U	L	L	A	A	B	
-n_words 75 avg 42.125 std 22.5079846943257 A	S	N	E	Y	I	H	G	T	S	D	P	S	O	R	I	
-n_words 26 avg 26.0 std 0.0 min 26 max 26 S	O	S	C	T	Z	E	Y	W	E	W	B	I	S	S	E	
-n_words 46 avg 36.0 std 10.0 min 26 max 46 N	O	Y	F	D	R	Z	C	A	H	T	I	S	W	I	Y	
-n_words 105 avg 59.0 std 33.53605025441527 min 26 max 105 T	A	W	I	C	R	X	P	H	A	I	T	T	N	S	B	
-n_words 45 avg 55.5 std 29.669007398293594 min 26 max 105 N	S	I	C	K	D	N	B	I	E	Y	E	E	Qu	E	O	
-n_words 45 avg 53.4 std 26.867080228413357 min 26 max 105 G	N	N	Y	R	O	F	E	E	R	C	S	U	B	P	L	
-n_words 18 avg 47.5 std 27.849296819369307 min 18 max 105 Y	G	D	L	S	H	W	L	N	W	S	K	T	B	A	T	
-n_words 81 avg 52.285714285714285 std 28.32320747430723 min 18 max 105 L	X	A	F	Y	M	W	D	A	E	E	T	R	S	O	A	
-n_words 36 avg 50.25 std 27.0358558214827 min 18 max 105 I	E	O	S	I	V	O	R	T	B	O	E	W	E	M	K	
-n_words 34 avg 48.44444444444444 std 25.99620105199609 min 18 max 105 W	V	O	S	T	E	E	O	H	L	M	Z	U	Y	B	T	
-n_words 98 avg 53.4 std 28.796527568441302 min 18 max 105 R	N	C	D	Z	M	O	D	B	A	N	E	S	O	R	P	
-n_words 80 avg 55.81818181818182 std 28.5014136230538 min 18 max 105 G	F	A	I	D	I	N	W	T	R	T	I	N	N	O	H	
-n_words 73 avg 57.25 std 27.698149757700424 min 18 max 105 O	I	C	T	E	B	R	A	N	A	R	D	H	T	Qu	L	
-n_words 4 avg 53.15384615384615 std 30.158162956310985 min 4 max 105 T	A	U	V	U	Z	D	S	O	F	G	L	E	A	J	C	
-n_words 40 avg 52.214285714285715 std 29.257913633820195 min 4 max 105 K	O	R	O	L	W	Qu	T	R	E	R	N	I	N	E	R	
-n_words 64 avg 53.0 std 28.41830396065184 min 4 max 105 W	E	R	K	L	H	O	T	T	E	N	A	D	H	N	E	
-n_words 30 avg 51.5625 std 28.07349450549397 min 4 max 105 O	U	Z	G	O	Y	U	D	P	E	R	P	H	I	I	A	
-n_words 46 avg 51.23529411764706 std 27.26672052966595 min 4 max 105 E	O	A	L	T	I	O	H	W	T	T	E	S	I	O	I	
-n_words 78 avg 52.72222222222222 std 27.198459015898422 min 4 max 105 Y	T	O	T	E	P	E	U	E	O	S	O	W	R	N	L	
-n_words 23 avg 51.1578947368421 std 27.29230305588341 min 4 max 105 H	T	F	G	Qu	C	T	C	R	Y	H	I	E	D	A	O	
-n_words 43 avg 50.75 std 26.66059826785588 min 4 max 105 N	A	T	Y	P	B	R	S	H	I	V	T	N	T	H	N	
-n_words 18 avg 18.0 std 0.0 min 18 max 18 N 1 D	E	E	X	C	V	P	B	H	E	T	T	H	M	W	I	
-n_words 48 avg 33.0 std 15.0 min 18 max 48 N 2 I	R	A	L	Z	R	I	O	C	L	D	F	O	W	O	M	
-n_words 55 avg 40.333333333333336 std 16.048537489614297 min 18 max 55 N 3 I	O	N	D	V	E	S	O	U	T	O	I	E	T	Z	N	
-n_words 37 avg 39.5 std 13.97318861248212 min 18 max 55 N 4 O	N	T	Qu	H	E	T	S	O	E	H	X	E	S	I	R	
-n_words 31 avg 37.8 std 12.952219886953742 min 18 max 55 N 5 A	M	T	N	N	E	R	R	H	I	J	S	I	I	T	X	
-n_words 34 avg 37.166666666666664 std 11.908213785264167 min 18 max 55 N 6 M	W	L	K	C	M	O	I	E	E	O	R	T	E	O	N	
-n_words 59 avg 40.285714285714285 std 13.413365250634861 min 18 max 59 N 7 B	I	E	A	S	E	P	F	H	E	E	T	W	C	H	L	
-n_words 66 avg 43.5 std 15.157506391224118 min 18 max 66 N 8 S	O	D	O	P	T	E	T	M	R	Z	T	S	A	H	U	
-n_words 2 avg 38.888888888888886 std 19.347376764159037 min 2 max 66 N 9 O	H	O	J	T	Z	C	V	K	T	Qu	N	L	N	S	T	
-n_words 53 avg 40.3 std 18.83640093011401 min 2 max 66 N 10 B	L	R	N	Y	A	M	N	T	Y	A	E	X	K	T	T	
-n_words 98 avg 45.54545454545455 std 24.44795450214277 min 2 max 98 N 11 C	S	A	S	N	T	H	H	S	A	E	E	U	Y	H	B	
-n_words 25 avg 43.833333333333336 std 24.086072508586554 min 2 max 98 N 12 I	H	N	E	U	E	J	L	X	A	A	H	T	N	W	T	
-n_words 64 avg 45.38461538461539 std 23.75690494454988 min 2 max 98 N 13 R	E	N	O	L	O	N	E	D	T	W	H	F	T	Qu	S	
-n_words 27 avg 44.07142857142857 std 23.377230331225803 min 2 max 98 N 14 R	T	C	T	L	I	W	L	R	G	C	T	F	O	S	N	
-n_words 53 avg 44.666666666666664 std 22.694101044593555 min 2 max 98 N 15 Y	O	O	C	N	N	M	I	U	E	S	I	F	H	N	E	
-n_words 76 avg 46.625 std 23.24563130999027 min 2 max 98 N 16 E	I	S	L	N	Y	G	E	Y	O	R	A	D	R	I	H	
-n_words 33 avg 45.8235294117647 std 22.778305711195124 min 2 max 98 N 17 S	O	R	H	O	E	V	L	Y	D	S	M	J	E	P	P	
-n_words 6 avg 43.611111111111114 std 23.94238196840464 min 2 max 98 N 18 N	N	O	A	W	L	J	E	T	H	K	R	Qu	N	Y	D	
-n_words 10 avg 41.8421052631579 std 24.482567714266747 min 2 max 98 N 19 C	N	E	L	Z	C	T	G	G	D	F	R	A	T	L	I	
-n_words 60 avg 42.75 std 24.18858201714189 min 2 max 98 N 20 E	T	N	W	E	Y	O	F	R	P	N	O	O	L	O	H	
-n_words 59 avg 43.523809523809526 std 23.857950751457192 min 2 max 98 N 21 C	R	F	I	O	W	S	R	M	S	E	N	A	X	U	W	
-n_words 36 avg 43.18181818181818 std 23.362044515986653 min 2 max 98 N 22 E	M	N	A	S	K	R	E	I	U	I	X	G	D	J	O	
-n_words 54 avg 43.65217391304348 std 22.95479242498398 min 2 max 98 N 23 O	Y	N	I	H	A	T	D	M	P	E	G	Y	Y	T	A	
-n_words 51 avg 43.958333333333336 std 22.51939750279498 min 2 max 98 N 24 J	D	E	I	T	I	E	N	T	I	F	N	R	E	O	S	
-n_words 94 avg 45.96 std 24.145359802661876 min 2 max 98 N 25 O	E	R	V	N	N	O	E	J	S	T	T	E	R	N	E	
-n_words 112 avg 48.5 std 26.867552635388744 min 2 max 112 N 26 E	H	B	N	A	E	P	T	N	R	S	U	V	T	A	N	
-n_words 26 avg 47.666666666666664 std 26.705527240352048 min 2 max 112 N 27 P	Z	G	E	R	E	A	O	V	C	C	A	G	M	D	E	
-n_words 26 avg 46.892857142857146 std 26.53076285279073 min 2 max 112 N 28 M	E	Z	T	C	W	L	N	T	B	Y	E	L	A	N	G	
-n_words 66 avg 47.55172413793103 std 26.301417566223794 min 2 max 112 N 29 O	H	T	O	I	V	D	V	E	E	T	E	L	S	N	O	
-n_words 38 avg 47.233333333333334 std 25.916125396277035 min 2 max 112 N 30 K	N	A	U	R	B	I	Y	T	E	T	H	U	V	Z	X	
-n_words 53 avg 47.41935483870968 std 25.51504830303771 min 2 max 112 N 31 H	X	M	N	A	B	O	N	Y	I	O	L	S	S	S	G	
-n_words 43 avg 47.28125 std 25.12498056591288 min 2 max 112 N 32 M	D	I	N	J	P	T	R	R	H	I	L	T	Qu	T	N	
-n_words 121 avg 49.515151515151516 std 27.78174810927754 min 2 max 121 N 33 M	F	S	G	P	V	N	R	T	E	A	O	E	R	T	E	
-n_words 97 avg 50.911764705882355 std 28.5217849114124 min 2 max 121 N 34 R	D	M	S	T	E	O	I	I	A	T	R	U	A	W	L	
-n_words 24 avg 50.142857142857146 std 28.46666507352351 min 2 max 121 N 35 A	N	Qu	I	I	R	P	Y	H	U	T	A	R	W	T	A	
-n_words 79 avg 50.94444444444444 std 28.466300197138022 min 2 max 121 N 36 T	S	L	M	R	E	T	T	O	N	R	G	O	N	I	S	
-n_words 23 avg 50.189189189189186 std 28.44229610018667 min 2 max 121 N 37 E	E	O	A	S	S	Qu	R	S	C	T	N	D	O	T	Y	
-n_words 46 avg 50.078947368421055 std 28.073570244277583 min 2 max 121 N 38 E	T	U	S	E	Y	O	G	N	N	B	Y	K	O	E	T	
-n_words 66 avg 50.48717948717949 std 27.82534520243102 min 2 max 121 N 39 Z	E	V	L	F	S	O	Qu	O	H	E	T	O	R	S	G	
-n_words 54 avg 50.575 std 27.480800115717155 min 2 max 121 N 40 V	H	S	U	I	C	R	R	A	L	O	P	X	T	J	W	
-n_words 83 avg 51.36585365853659 std 27.60059746398306 min 2 max 121 N 41 Y	K	H	N	S	O	A	E	E	R	S	H	I	L	V	U	
-n_words 80 avg 52.04761904761905 std 27.61724132024395 min 2 max 121 N 42 K	O	A	Z	S	T	C	D	R	I	E	H	R	V	G	A	
-n_words 41 avg 51.7906976744186 std 27.34496096561348 min 2 max 121 N 43 U	A	O	T	Y	V	E	W	D	N	S	P	F	U	E	Z	
-n_words 44 avg 51.61363636363637 std 27.057359870107355 min 2 max 121 N 44 L	P	T	E	N	N	T	T	C	E	E	H	H	A	N	O	
-n_words 19 avg 50.888888888888886 std 27.183509888837815 min 2 max 121 N 45 U	X	O	E	R	E	T	A	O	W	Y	N	N	S	R	V	
-n_words 3 avg 49.84782608695652 std 27.778602487232277 min 2 max 121 N 46 U	O	Y	L	W	Y	S	Qu	H	T	P	D	N	R	S	H	
-n_words 13 avg 49.06382978723404 std 27.991187256994547 min 2 max 121 N 47 I	I	E	P	G	S	Qu	E	Z	E	B	I	W	S	H	V	
-n_words 52 avg 49.125 std 27.701252228013086 min 2 max 121 N 48 T	U	E	E	A	E	U	N	M	T	I	R	C	E	K	I	
-n_words 11 avg 48.3469387755102 std 27.9420325765048 min 2 max 121 N 49 T	X	A	S	V	A	Z	G	F	U	Qu	I	T	E	G	S	
-n_words 86 avg 49.1 std 28.159012766785697 min 2 max 121 N 50 E	E	T	T	M	I	D	V	R	E	H	D	V	B	E	F	
-n_words 101 avg 50.11764705882353 std 28.79518414175859 min 2 max 121 N 51 B	C	L	R	C	R	O	A	E	U	S	Qu	F	O	E	H	
-n_words 57 avg 50.25 std 28.532623029141167 min 2 max 121 N 52 L	I	E	P	E	T	N	Y	N	O	N	R	F	T	X	I	
-n_words 59 avg 50.41509433962264 std 28.28722890865633 min 2 max 121 N 53 R	G	A	A	G	I	S	P	N	E	Y	O	W	I	E	T	
-n_words 40 avg 50.22222222222222 std 28.0592406820698 min 2 max 121 N 54 T	U	F	E	P	Z	D	I	I	N	R	E	M	T	B	V	
-n_words 35 avg 49.945454545454545 std 27.8772753212871 min 2 max 121 N 55 S	A	N	U	T	Y	A	N	V	H	D	T	T	A	N	O	
-n_words 28 avg 49.55357142857143 std 27.779694307467217 min 2 max 121 N 56 W	A	E	T	E	J	H	T	E	P	L	S	E	N	V	A	
-n_words 8 avg 48.824561403508774 std 28.07016447368207 min 2 max 121 N 57 U	D	T	Z	D	S	Qu	S	S	L	N	B	W	U	V	I	
-n_words 71 avg 49.206896551724135 std 27.97644244266807 min 2 max 121 N 58 T	A	S	H	L	M	T	G	N	A	N	R	W	O	H	I	
-n_words 42 avg 49.08474576271186 std 27.753935824472226 min 2 max 121 N 59 E	T	T	S	I	T	S	G	Y	H	N	A	E	H	I	T	
-n_words 60 avg 49.266666666666666 std 27.557132571360825 min 2 max 121 N 60 P	B	H	T	D	M	H	O	A	E	K	I	T	D	N	C	
-n_words 50 avg 49.278688524590166 std 27.330479680962565 min 2 max 121 N 61 I	N	T	T	O	Y	O	A	H	I	F	D	N	R	E	E	
-n_words 13 avg 48.693548387096776 std 27.491693003217218 min 2 max 121 N 62 E	R	Z	K	M	U	J	T	H	I	T	T	E	M	H	R	
-n_words 68 avg 49.0 std 27.3791717847536 min 2 max 121 N 63 P	T	N	T	I	H	N	A	D	O	B	E	G	U	T	R	
-n_words 37 avg 48.8125 std 27.205166673814002 min 2 max 121 N 64 I	J	E	E	P	Y	O	L	N	I	E	S	A	I	T	E	
-n_words 125 avg 49.98461538461538 std 28.577286466268063 min 2 max 125 N 65 O	E	O	D	R	K	T	O	B	A	E	R	T	N	T	Y	
-n_words 40 avg 49.833333333333336 std 28.386180661111357 min 2 max 125 N 66 B	G	N	T	M	V	T	I	H	Y	N	L	E	K	E	S	
-n_words 22 avg 49.417910447761194 std 28.37496755405146 min 2 max 125 N 67 T	N	O	E	N	E	U	Y	D	D	F	R	H	H	H	B	
-n_words 32 avg 49.161764705882355 std 28.243484565740555 min 2 max 125 N 68 Z	M	A	R	U	E	S	A	E	F	J	R	V	R	N	S	
-n_words 73 avg 49.507246376811594 std 28.18244041047587 min 2 max 125 N 69 O	N	D	N	S	U	E	T	S	E	N	U	E	H	N	D	
-n_words 51 avg 49.52857142857143 std 27.98097385651871 min 2 max 125 N 70 S	L	E	O	I	G	N	P	O	E	U	F	B	D	H	U	
-n_words 48 avg 49.50704225352113 std 27.783809876468275 min 2 max 125 N 71 I	H	T	E	O	A	I	W	A	F	D	E	E	E	W	R	
-n_words 43 avg 49.416666666666664 std 27.600699467787244 min 2 max 125 N 72 B	Qu	M	A	Z	S	E	L	R	H	W	T	G	S	T	F	
-n_words 42 avg 49.31506849315068 std 27.424554896965578 min 2 max 125 N 73 A	O	I	T	A	R	Y	N	R	R	E	O	L	I	U	F	
-n_words 68 avg 49.567567567567565 std 27.323923326915633 min 2 max 125 N 74 O	S	A	N	D	E	N	H	I	S	U	S	O	H	L	R	
-n_words 36 avg 49.38666666666666 std 27.185728281990578 min 2 max 125 N 75 P	I	Y	I	R	E	H	E	B	A	E	L	F	A	E	C	
-n_words 23 avg 49.03947368421053 std 27.17314889326637 min 2 max 125 N 76 H	H	T	E	F	M	S	T	L	B	H	I	I	R	L	A	
-n_words 47 avg 49.01298701298701 std 26.9971107191427 min 2 max 125 N 77 S	V	H	N	O	E	I	T	N	T	W	P	P	T	X	H	
-n_words 69 avg 49.26923076923077 std 26.917572697423974 min 2 max 125 N 78 P	E	N	T	I	O	A	E	N	D	E	U	R	O	D	O	
-n_words 14 avg 48.822784810126585 std 27.0357285844664 min 2 max 125 N 79 U	H	Y	T	N	W	D	I	F	P	A	A	U	V	A	T	
-n_words 100 avg 49.4625 std 27.46131085272515 min 2 max 125 N 80 F	S	E	Z	T	E	G	O	C	E	R	T	V	S	M	G	
-n_words 85 avg 49.901234567901234 std 27.571950740048198 min 2 max 125 N 81 O	A	T	C	O	E	S	L	E	S	E	N	Y	N	A	W	
-n_words 70 avg 50.146341463414636 std 27.49195977861107 min 2 max 125 N 82 N	I	E	E	I	G	S	E	S	R	B	L	T	S	A	Qu	
-n_words 26 avg 49.855421686746986 std 27.452536271057845 min 2 max 125 N 83 S	R	I	E	R	S	G	T	Z	O	S	M	P	A	J	I	
-n_words 50 avg 49.857142857142854 std 27.28864357250486 min 2 max 125 N 84 A	T	T	D	T	U	L	E	B	F	S	I	H	L	R	U	
-n_words 65 avg 50.03529411764706 std 27.176740513047086 min 2 max 125 N 85 T	O	T	S	I	B	R	G	M	E	D	N	R	T	H	S	
-n_words 135 avg 51.02325581395349 std 28.512329745904847 min 2 max 135 N 86 W	S	N	V	I	F	N	A	R	A	L	I	S	E	S	E	
-n_words 21 avg 50.67816091954023 std 28.528064122803613 min 2 max 135 N 87 N	U	I	R	E	W	H	Y	N	O	F	U	G	E	T	J	
-n_words 23 avg 50.36363636363637 std 28.51681394696733 min 2 max 135 N 88 L	I	O	E	O	N	P	C	W	H	N	T	E	D	N	A	
-n_words 50 avg 50.359550561797754 std 28.356180465368077 min 2 max 135 N 89 S	W	L	G	A	R	L	K	N	T	S	O	D	S	T	N	
-n_words 112 avg 51.044444444444444 std 28.92899779771582 min 2 max 135 N 90 N	K	C	H	A	N	T	R	E	E	A	U	U	T	W	S	
-n_words 21 avg 50.714285714285715 std 28.939605818486132 min 2 max 135 N 91 U	K	R	S	C	L	Y	Y	O	G	M	H	O	N	S	Z	
-n_words 18 avg 50.358695652173914 std 28.981096358225713 min 2 max 135 N 92 E	E	X	L	C	J	R	T	P	W	I	V	T	S	V	S	
-n_words 42 avg 50.26881720430107 std 28.837751461472898 min 2 max 135 N 93 G	T	R	N	O	D	I	I	A	N	L	N	B	U	F	Y	
-n_words 13 avg 49.87234042553192 std 28.937656407390623 min 2 max 135 N 94 I	R	I	O	A	R	G	S	G	J	Y	U	V	N	F	L	
-n_words 86 avg 50.252631578947366 std 29.02012674391149 min 2 max 135 N 95 T	H	E	N	E	O	O	E	E	T	T	R	I	D	R	S	
-n_words 25 avg 49.989583333333336 std 28.982212501688956 min 2 max 135 N 96 W	R	I	E	A	E	J	N	Y	I	Z	P	N	S	O	E	
-n_words 43 avg 49.91752577319588 std 28.84107541322972 min 2 max 135 N 97 I	A	L	C	N	I	N	W	C	T	S	Y	S	O	M	H	
-n_words 31 avg 49.724489795918366 std 28.75646532884526 min 2 max 135 N 98 E	D	I	I	G	A	N	S	I	T	N	V	H	F	N	T	
-n_words 69 avg 49.91919191919192 std 28.67571272622716 min 2 max 135 N 99 N	I	V	F	U	O	A	U	J	S	T	D	V	E	M	S	
-n_words 18 avg 49.6 std 28.70818698559698 min 2 max 135 N 100 R	V	T	J	H	G	E	T	U	R	H	F	S	G	L	I	
-n_words 103 avg 50.12871287128713 std 29.05088174266778 min 2 max 135 N 101 E	V	I	R	T	C	P	N	R	O	W	E	T	I	D	M	
-n_words 89 avg 50.509803921568626 std 29.16072603860899 min 2 max 135 N 102 E	G	O	A	W	O	R	T	L	L	O	L	A	S	A	H	
-n_words 28 avg 50.29126213592233 std 29.102640946441586 min 2 max 135 N 103 L	N	T	E	A	L	E	I	U	O	Y	O	O	U	O	S	
-n_words 18 avg 49.98076923076923 std 29.133307916841762 min 2 max 135 N 104 O	I	O	R	H	E	O	N	S	N	X	Y	E	N	N	K	
-n_words 33 avg 49.819047619047616 std 29.041114025720077 min 2 max 135 N 105 A	Z	E	R	O	Y	H	S	F	S	S	N	G	A	I	C	
-n_words 13 avg 49.471698113207545 std 29.122126563954385 min 2 max 135 N 106 V	H	J	Y	T	D	N	K	T	N	T	E	N	L	R	O	
-n_words 6 avg 49.06542056074766 std 29.28597987683685 min 2 max 135 N 107 T	A	W	Y	I	V	P	D	C	A	B	M	A	Z	V	I	
-n_words 33 avg 48.916666666666664 std 29.190664730482027 min 2 max 135 N 108 U	H	L	K	I	T	D	O	T	E	R	N	L	G	L	P	
-n_words 52 avg 48.944954128440365 std 29.05794112508814 min 2 max 135 N 109 Qu	R	V	N	E	T	E	O	L	R	R	K	N	M	O	A	
-n_words 32 avg 48.79090909090909 std 28.97023408276014 min 2 max 135 N 110 G	R	I	T	I	N	N	K	V	L	D	I	U	D	S	B	
-n_words 23 avg 48.55855855855856 std 28.94221788841735 min 2 max 135 N 111 O	H	T	D	M	N	S	I	F	M	L	G	P	S	T	L	
-n_words 34 avg 48.42857142857143 std 28.845250378316276 min 2 max 135 N 112 E	R	O	T	E	B	L	H	G	N	T	X	H	U	K	Y	
-n_words 25 avg 48.2212389380531 std 28.801036889297247 min 2 max 135 N 113 W	C	T	I	B	N	R	Z	A	D	S	E	A	O	A	D	
-n_words 29 avg 48.05263157894737 std 28.730398994934365 min 2 max 135 N 114 I	T	C	A	N	S	R	A	T	W	L	B	I	W	Y	R	
-n_words 97 avg 48.47826086956522 std 28.96394995464923 min 2 max 135 N 115 M	R	E	T	F	O	T	H	W	E	B	H	C	L	S	A	
-n_words 78 avg 48.73275862068966 std 28.967686443816206 min 2 max 135 N 116 H	D	Y	K	E	T	L	R	D	E	O	R	T	N	N	A	
-n_words 33 avg 48.598290598290596 std 28.87996372522399 min 2 max 135 N 117 S	E	M	A	L	D	M	W	N	S	N	O	O	S	O	V	
-n_words 30 avg 48.440677966101696 std 28.8078209639831 min 2 max 135 N 118 A	T	D	L	T	H	D	C	P	T	I	N	A	A	I	S	
-n_words 14 avg 48.15126050420168 std 28.858285632927565 min 2 max 135 N 119 O	N	I	N	V	G	Y	R	L	T	D	P	R	O	T	K	
-n_words 23 avg 47.94166666666667 std 28.828601490340958 min 2 max 135 N 120 X	S	T	E	O	E	Y	U	V	C	H	O	S	P	Z	O	
-n_words 6 avg 47.59504132231405 std 28.959241380981112 min 2 max 135 N 121 E	F	B	Y	E	L	N	N	U	V	H	T	E	E	V	P	
-n_words 104 avg 48.057377049180324 std 29.285283939467124 min 2 max 135 N 122 L	D	E	C	D	E	R	B	C	H	E	Y	L	O	S	F	
-n_words 71 avg 48.24390243902439 std 29.238670646828897 min 2 max 135 N 123 L	T	E	T	C	R	N	P	J	P	E	E	N	E	S	Qu	
-n_words 64 avg 48.37096774193548 std 29.154612245620893 min 2 max 135 N 124 U	M	Y	R	V	A	N	O	F	S	O	H	E	L	R	T	
-n_words 54 avg 48.416 std 29.042089181048944 min 2 max 135 N 125 N	E	O	I	I	N	W	E	I	B	O	S	P	C	T	Y	
-n_words 35 avg 48.30952380952381 std 28.95109842084135 min 2 max 135 N 126 G	B	I	N	H	D	E	X	N	H	T	W	W	I	I	F	
-n_words 30 avg 48.16535433070866 std 28.88226543002666 min 2 max 135 N 127 H	I	J	L	R	I	I	F	H	G	N	I	O	E	W	T	
-n_words 76 avg 48.3828125 std 28.873409343024314 min 2 max 135 N 128 Qu	Y	C	R	S	N	T	R	E	T	A	P	N	T	D	J	
-n_words 49 avg 48.3875968992248 std 28.76133011056656 min 2 max 135 N 129 R	S	R	G	T	F	S	G	T	R	L	O	U	M	A	T	
-n_words 15 avg 48.13076923076923 std 28.798607995616855 min 2 max 135 N 130 L	Qu	P	S	T	E	Y	H	H	H	J	H	T	T	E	R	
-n_words 10 avg 47.83969465648855 std 28.879802708587157 min 2 max 135 N 131 T	V	W	E	Qu	T	D	R	A	B	M	P	L	T	I	G	
-n_words 48 avg 47.84090909090909 std 28.770204901645116 min 2 max 135 N 132 T	A	H	T	C	D	I	A	I	E	V	T	I	N	N	L	
-n_words 16 avg 47.6015037593985 std 28.793519490607622 min 2 max 135 N 133 E	W	E	S	M	Z	H	R	L	D	R	O	X	S	K	I	
-n_words 22 avg 47.41044776119403 std 28.77037569636444 min 2 max 135 N 134 I	R	C	G	O	F	N	R	E	Z	T	I	E	B	G	T	
-n_words 105 avg 47.837037037037035 std 29.085877292726053 min 2 max 135 N 135 R	L	H	T	E	A	S	S	N	H	I	T	O	T	U	G	
-n_words 99 avg 48.213235294117645 std 29.306546169011483 min 2 max 135 N 136 A	O	T	B	E	R	S	E	O	E	M	T	X	T	E	T	
-n_words 67 avg 48.35036496350365 std 29.243151607260042 min 2 max 135 N 137 N	W	E	A	T	C	N	T	L	W	O	D	E	T	N	R	
-n_words 58 avg 48.42028985507246 std 29.14849825703928 min 2 max 135 N 138 V	I	A	T	C	N	L	F	A	T	H	B	I	G	E	A	
-n_words 34 avg 48.31654676258993 std 29.069016354465088 min 2 max 135 N 139 X	N	O	H	V	W	A	I	O	T	T	E	N	U	P	T	
-n_words 57 avg 48.378571428571426 std 28.974241727325143 min 2 max 135 N 140 H	O	W	R	N	L	K	E	A	Y	S	N	S	E	O	C	
-n_words 22 avg 48.191489361702125 std 28.956047615765563 min 2 max 135 N 141 L	N	T	H	L	N	K	T	T	A	U	X	D	J	I	N	
-n_words 119 avg 48.690140845070424 std 29.45518991037435 min 2 max 135 N 142 H	L	M	F	T	A	M	G	N	E	A	E	T	L	J	D	
-n_words 14 avg 48.44755244755245 std 29.494026495285308 min 2 max 135 N 143 Qu	E	Z	S	S	V	O	Y	N	H	O	P	H	X	O	P	
-n_words 114 avg 48.90277777777778 std 29.89131224686374 min 2 max 135 N 144 R	E	N	O	C	L	S	F	A	I	A	B	D	D	C	T	
-n_words 25 avg 48.737931034482756 std 29.853670874532312 min 2 max 135 N 145 E	O	E	G	S	H	O	I	E	O	T	X	E	G	Y	O	
-n_words 75 avg 48.917808219178085 std 29.82999934544957 min 2 max 135 N 146 T	O	E	E	F	V	O	N	E	N	I	T	O	G	T	L	
-n_words 33 avg 48.80952380952381 std 29.757142476129513 min 2 max 135 N 147 I	E	O	Z	S	E	Y	B	K	C	G	O	Qu	E	R	I	
-n_words 65 avg 48.91891891891892 std 29.68608590111807 min 2 max 135 N 148 E	T	T	O	H	I	I	A	B	E	T	R	G	W	O	E	
-n_words 44 avg 48.88590604026846 std 29.58902621752258 min 2 max 135 N 149 Y	M	S	A	A	O	G	N	D	V	N	F	M	V	E	X	
-n_words 127 avg 49.406666666666666 std 30.167553578122455 min 2 max 135 N 150 T	F	O	R	E	A	O	E	J	R	T	S	X	N	H	N	
-n_words 135 avg 49.973509933774835 std 30.8585637045137 min 2 max 135 N 151 B	W	R	S	C	E	M	H	L	A	N	L	T	S	D	A	
-n_words 58 avg 50.026315789473685 std 30.7637319292713 min 2 max 135 N 152 E	U	T	T	O	F	A	E	L	E	T	E	H	T	L	A	
-n_words 59 avg 50.08496732026144 std 30.67155709352585 min 2 max 135 N 153 V	R	R	I	O	L	I	C	N	S	O	T	G	P	F	U	
-n_words 82 avg 50.29220779220779 std 30.67909422389098 min 2 max 135 N 154 A	W	A	Y	F	E	S	E	B	N	L	P	O	I	R	E	
-n_words 10 avg 50.03225806451613 std 30.749648695572844 min 2 max 135 N 155 Y	A	T	D	T	N	X	A	C	R	H	J	U	R	F	W	
-n_words 140 avg 50.60897435897436 std 31.480676555372153 min 2 max 140 N 156 T	P	U	W	E	N	A	L	R	I	E	A	F	Qu	S	O	
-n_words 111 avg 50.99363057324841 std 31.745905361181673 min 2 max 140 N 157 P	A	H	L	R	U	S	G	E	S	A	O	R	D	N	D	
-n_words 38 avg 50.91139240506329 std 31.66205646480019 min 2 max 140 N 158 E	O	S	A	R	H	N	G	F	N	C	R	D	S	E	Y	
-n_words 42 avg 50.855345911949684 std 31.570194620913526 min 2 max 140 N 159 R	A	R	N	F	A	T	G	T	O	G	H	Y	Z	R	O	
-n_words 7 avg 50.58125 std 31.66059693747893 min 2 max 140 N 160 V	Qu	L	S	N	H	V	A	E	F	U	Y	L	T	J	W	
-n_words 0 avg 50.267080745341616 std 31.811314398749523 min 0 max 140 N 161 D	G	W	I	U	P	Y	B	I	F	W	Y	W	N	M	L	
-n_words 18 avg 50.0679012345679 std 31.813524289112472 min 0 max 140 N 162 T	G	S	V	J	Y	G	H	O	C	H	N	R	S	I	S	
-n_words 10 avg 49.82208588957055 std 31.869734906506952 min 0 max 140 N 163 H	C	A	E	I	O	F	Y	E	G	X	Qu	A	S	E	H	
-n_words 88 avg 50.05487804878049 std 31.91112907954636 min 0 max 140 N 164 O	R	F	O	N	R	U	E	I	O	E	E	S	N	T	G	
-n_words 30 avg 49.93333333333333 std 31.852336070236877 min 0 max 140 N 165 O	X	N	S	E	N	L	J	D	N	O	H	P	L	I	V	
-n_words 6 avg 49.66867469879518 std 31.937700755828963 min 0 max 140 N 166 H	W	S	I	O	A	U	X	I	F	W	I	A	Y	L	R	
-n_words 24 avg 49.51497005988024 std 31.903457715750193 min 0 max 140 N 167 A	R	B	C	N	G	S	D	W	Y	E	N	U	E	C	N	
-n_words 88 avg 49.74404761904762 std 31.94582412233053 min 0 max 140 N 168 P	L	T	U	O	E	L	L	M	E	R	D	W	W	I	A	
-n_words 12 avg 49.5207100591716 std 31.982445028927362 min 0 max 140 N 169 N	T	G	D	D	F	Z	T	B	M	O	I	E	D	O	V	
-n_words 60 avg 49.582352941176474 std 31.898307815971858 min 0 max 140 N 170 E	T	E	S	N	A	E	N	A	H	O	T	A	D	D	V	
-n_words 36 avg 49.50292397660819 std 31.82175765818426 min 0 max 140 N 171 H	S	S	X	N	O	S	T	W	M	T	Y	E	C	O	U	
-n_words 12 avg 49.28488372093023 std 31.856969656327227 min 0 max 140 N 172 T	V	E	Y	T	I	F	X	S	W	Y	J	I	S	N	E	
-n_words 46 avg 49.26589595375722 std 31.76574015065058 min 0 max 140 N 173 R	T	H	S	H	O	P	W	E	M	Y	R	S	S	L	G	
-n_words 7 avg 49.02298850574713 std 31.835055142035163 min 0 max 140 N 174 O	A	U	E	O	O	U	Qu	S	I	Z	E	E	O	E	E	
-n_words 39 avg 48.965714285714284 std 31.752956603460163 min 0 max 140 N 175 F	T	D	T	S	L	I	R	H	C	C	E	E	E	J	O	
-n_words 25 avg 48.82954545454545 std 31.713820327948323 min 0 max 140 N 176 V	Y	U	H	A	E	S	Y	P	V	E	H	O	T	E	P	
-n_words 33 avg 48.740112994350284 std 31.646354936677824 min 0 max 140 N 177 G	J	A	A	E	E	E	N	D	E	L	M	F	S	W	E	
-n_words 61 avg 48.80898876404494 std 31.570636479828003 min 0 max 140 N 178 O	R	C	S	Y	E	H	N	V	T	E	A	M	T	Y	Y	
-n_words 21 avg 48.6536312849162 std 31.55048496202411 min 0 max 140 N 179 N	B	T	R	L	Y	I	H	T	E	H	E	V	K	T	U	
-n_words 26 avg 48.52777777777778 std 31.507746940775544 min 0 max 140 N 180 X	O	O	O	M	W	I	T	H	R	H	A	N	H	S	N	
-n_words 65 avg 48.61878453038674 std 31.444302783304934 min 0 max 140 N 181 T	U	I	H	R	H	T	O	T	E	F	N	O	O	E	D	
-n_words 114 avg 48.97802197802198 std 31.72806087104725 min 0 max 140 N 182 H	I	I	H	E	R	A	A	T	T	C	T	N	T	E	S	
-n_words 22 avg 48.830601092896174 std 31.703695517632525 min 0 max 140 N 183 H	I	N	V	I	T	V	O	L	R	Y	N	S	N	T	E	
-n_words 27 avg 48.71195652173913 std 31.658137707839742 min 0 max 140 N 184 A	Qu	R	F	N	R	O	Y	W	T	R	O	O	C	R	U	
-n_words 44 avg 48.68648648648649 std 31.574349512138525 min 0 max 140 N 185 H	L	T	E	P	T	C	O	D	R	U	R	W	M	O	N	
-n_words 151 avg 49.236559139784944 std 32.36598435084573 min 0 max 151 N 186 E	S	R	S	A	T	U	S	O	N	E	T	I	A	S	L	
-n_words 17 avg 49.06417112299465 std 32.36483451345019 min 0 max 151 N 187 Qu	T	L	R	I	S	M	S	N	W	X	Y	A	O	B	H	
-n_words 66 avg 49.15425531914894 std 32.302141306051034 min 0 max 151 N 188 D	W	Z	A	S	R	M	O	O	S	E	R	M	S	T	T	
-n_words 73 avg 49.28042328042328 std 32.26298496361787 min 0 max 151 N 189 F	S	O	H	E	R	T	S	R	N	V	S	A	T	D	R	
-n_words 14 avg 49.09473684210526 std 32.2790705156112 min 0 max 151 N 190 N	A	N	Z	O	Y	K	D	C	E	I	E	H	O	E	O	
-n_words 23 avg 48.95811518324607 std 32.24949083744875 min 0 max 151 N 191 Y	Y	H	V	E	F	P	G	G	O	O	O	O	T	L	Qu	
-n_words 28 avg 48.848958333333336 std 32.200755344374514 min 0 max 151 N 192 A	O	I	O	F	Y	T	A	O	C	N	H	H	I	H	T	
-n_words 64 avg 48.92746113989637 std 32.13564067085345 min 0 max 151 N 193 I	E	B	A	S	S	A	V	H	U	D	H	R	O	T	T	
-n_words 37 avg 48.865979381443296 std 32.06408816439363 min 0 max 151 N 194 H	O	Y	O	E	I	O	R	I	H	D	U	S	S	T	L	
-n_words 75 avg 49.0 std 32.03619747594818 min 0 max 151 N 195 Y	A	M	I	N	B	K	E	E	O	R	X	T	E	Z	T	
-n_words 53 avg 49.02040816326531 std 31.95563876396456 min 0 max 151 N 196 G	O	V	A	E	N	S	N	T	R	D	G	O	E	F	T	
-n_words 20 avg 48.87309644670051 std 31.941080546102803 min 0 max 151 N 197 N	F	E	E	J	Z	S	R	T	G	S	V	I	L	E	Qu	
-n_words 80 avg 49.03030303030303 std 31.936633771827758 min 0 max 151 N 198 F	G	H	B	H	R	E	N	E	O	I	S	T	X	A	D	
-n_words 43 avg 49.0 std 31.859143508977578 min 0 max 151 N 199 T	D	H	I	S	E	M	N	Z	E	A	I	H	O	O	E	
-n_words 13 avg 48.82 std 31.880677533578236 min 0 max 151 N 200 H	I	I	J	W	R	A	R	X	G	F	E	R	C	H	O	
-n_words 54 avg 48.84577114427861 std 31.80336185689119 min 0 max 151 N 201 C	N	N	J	Y	T	E	R	S	L	Y	A	D	S	O	W	
-n_words 42 avg 48.81188118811881 std 31.72818120535347 min 0 max 151 N 202 W	R	C	D	O	D	N	I	U	T	A	E	K	O	E	N	
-n_words 26 avg 48.69950738916256 std 31.690208426297264 min 0 max 151 N 203 Qu	L	R	R	S	A	V	N	O	A	H	E	U	N	I	A	
-n_words 42 avg 48.666666666666664 std 31.61590358470123 min 0 max 151 N 204 F	O	N	R	M	T	M	L	L	P	E	H	V	I	D	T	
-n_words 12 avg 48.48780487804878 std 31.641992745994003 min 0 max 151 N 205 P	D	I	I	T	C	H	W	M	T	C	H	N	E	V	B	
-n_words 29 avg 48.39320388349515 std 31.594145832735833 min 0 max 151 N 206 M	A	S	T	W	J	N	U	E	U	H	F	R	D	R	N	
-n_words 73 avg 48.51207729468599 std 31.5638850531141 min 0 max 151 N 207 O	O	W	A	E	R	A	I	U	O	R	O	T	T	T	L	
-n_words 68 avg 48.60576923076923 std 31.516759360094913 min 0 max 151 N 208 R	H	S	A	O	O	D	E	I	G	I	G	R	A	N	O	
-n_words 112 avg 48.90909090909091 std 31.744138043589896 min 0 max 151 N 209 S	Y	N	T	A	F	Qu	O	E	R	E	V	T	S	I	D	
-n_words 51 avg 48.91904761904762 std 31.66879369870387 min 0 max 151 N 210 O	W	E	E	A	D	Qu	L	E	A	O	T	X	U	R	C	
-n_words 7 avg 48.720379146919434 std 31.72456270036253 min 0 max 151 N 211 T	R	P	L	Z	N	Y	M	X	I	H	N	F	Y	E	O	
-n_words 29 avg 48.62735849056604 std 31.67848217079015 min 0 max 151 N 212 O	P	I	V	S	O	K	H	I	E	D	L	I	Qu	A	L	
-n_words 56 avg 48.66197183098591 std 31.608050169988378 min 0 max 151 N 213 E	V	O	H	A	Z	S	W	L	E	T	L	F	T	B	I	
-n_words 92 avg 48.86448598130841 std 31.67231980070634 min 0 max 151 N 214 O	B	N	X	E	S	O	R	R	H	E	W	S	W	T	Y	
-n_words 24 avg 48.74883720930232 std 31.643834566780594 min 0 max 151 N 215 R	O	E	H	X	E	Z	K	H	Y	T	U	O	T	T	S	
-n_words 91 avg 48.94444444444444 std 31.70051796905175 min 0 max 151 N 216 E	S	T	A	I	E	O	L	N	C	G	L	W	I	P	B	
-n_words 13 avg 48.77880184331797 std 31.720945012427848 min 0 max 151 N 217 R	U	S	W	F	H	U	O	W	E	Y	I	Qu	N	E	E	
-n_words 56 avg 48.81192660550459 std 31.651868431220198 min 0 max 151 N 218 T	I	G	A	T	B	R	I	R	A	E	E	E	A	R	Z	
-n_words 30 avg 48.726027397260275 std 31.604979207435743 min 0 max 151 N 219 S	U	R	L	I	Z	A	A	E	Qu	V	G	Y	O	S	L	
-n_words 58 avg 48.768181818181816 std 31.539237991077893 min 0 max 151 N 220 H	O	L	A	V	E	E	A	B	T	E	S	H	O	E	T	
-n_words 54 avg 48.79185520361991 std 31.469760342513464 min 0 max 151 N 221 C	U	E	F	T	A	X	J	E	E	O	T	S	T	N	L	
-n_words 68 avg 48.87837837837838 std 31.425137425876247 min 0 max 151 N 222 A	N	I	U	A	E	V	T	R	H	I	L	O	L	N	S	
+n_words 35 avg 35.0 std 0.0 min 35 max 35 N 1 board:	C	I	T	G	T	H	R	I	N	R	Y	I	N	J	O	F
+n_words 34 avg 34.5 std 0.5 min 34 max 35 N 2 board:	R	I	H	F	N	X	P	N	J	N	L	M	V	O	I	O	
+n_words 93 avg 54.0 std 27.6 min 34 max 93 N 3 board:	I	Y	E	D	I	T	M	H	A	N	E	P	W	I	E	W	
+n_words 92 avg 63.5 std 29.0 min 34 max 93 N 4 board:	N	E	F	P	S	N	O	G	O	T	V	L	I	R	N	Y	
+n_words 88 avg 68.4 std 27.7 min 34 max 93 N 5 board:	A	M	M	I	G	E	O	O	W	D	A	C	L	F	E	S	
+n_words 53 avg 65.8 std 26.0 min 34 max 93 N 6 board:	U	L	V	S	A	I	L	U	T	O	X	W	W	L	U	F	
+n_words 41 avg 62.3 std 25.6 min 34 max 93 N 7 board:	B	T	T	W	R	H	Y	I	S	M	D	T	E	L	F	E	
+n_words 43 avg 59.9 std 24.7 min 34 max 93 N 8 board:	E	G	N	O	V	T	T	R	S	J	I	D	T	Y	L	U	
+n_words 81 avg 62.2 std 24.3 min 34 max 93 N 9 board:	S	G	S	I	O	H	S	T	E	V	E	H	E	P	R	O	
+n_words 47 avg 60.7 std 23.5 min 34 max 93 N 10 board:	I	A	O	O	E	C	V	E	S	P	T	N	Y	H	Y	R	
+n_words 90 avg 63.4 std 23.9 min 34 max 93 N 11 board:	I	E	T	V	I	Y	A	E	R	N	T	H	L	M	A	C	
+n_words 49 avg 62.2 std 23.2 min 34 max 93 N 12 board:	B	I	I	O	Y	T	W	A	E	Qu	I	R	S	H	H	N	
+n_words 108 avg 65.7 std 25.4 min 34 max 108 N 13 board:	H	N	A	C	H	I	F	T	E	G	O	P	T	R	R	E	
+n_words 154 avg 72.0 std 33.4 min 34 max 154 N 14 board:	E	E	E	T	Z	T	P	R	O	P	I	A	L	T	M	S	
+n_words 41 avg 69.9 std 33.2 min 34 max 154 N 15 board:	I	H	I	G	X	C	W	H	Y	E	L	B	A	Qu	I	S	
+n_words 68 avg 69.8 std 32.2 min 34 max 154 N 16 board:	P	E	S	I	S	Y	O	R	I	Qu	T	T	Y	T	R	E	
+n_words 39 avg 68.0 std 32.0 min 34 max 154 N 17 board:	T	Qu	N	T	S	X	S	L	T	B	O	A	L	M	S	Z	
+n_words 141 avg 72.1 std 35.3 min 34 max 154 N 18 board:	H	T	E	D	N	O	L	A	M	S	M	B	N	T	G	X	
+n_words 39 avg 70.3 std 35.2 min 34 max 154 N 19 board:	I	U	R	S	A	E	V	W	H	B	P	T	T	E	S	T	
+n_words 51 avg 69.3 std 34.5 min 34 max 154 N 20 board:	R	R	I	V	A	R	K	N	N	E	C	T	B	N	T	C	
+n_words 104 avg 71.0 std 34.5 min 34 max 154 N 21 board:	E	E	U	L	R	A	B	S	V	U	O	H	T	N	L	O	
+n_words 65 avg 70.7 std 33.7 min 34 max 154 N 22 board:	A	A	T	Qu	S	I	I	O	L	H	R	R	E	P	G	F	
+n_words 68 avg 70.6 std 33.0 min 34 max 154 N 23 board:	E	Qu	C	T	L	A	Y	E	R	L	U	O	F	I	Y	E	
+n_words 96 avg 71.7 std 32.7 min 34 max 154 N 24 board:	O	N	N	P	I	N	L	O	T	L	A	R	B	A	R	N	
+n_words 44 avg 70.6 std 32.5 min 34 max 154 N 25 board:	T	J	E	S	I	C	I	N	N	V	I	V	R	I	T	A	
+n_words 126 avg 72.7 std 33.6 min 34 max 154 N 26 board:	S	O	D	G	N	R	U	S	R	R	T	L	C	I	A	T	
+n_words 26 avg 71.0 std 34.1 min 26 max 154 N 27 board:	T	N	B	O	T	T	H	A	H	R	G	Qu	E	T	N	S	
+n_words 34 avg 69.6 std 34.2 min 26 max 154 N 28 board:	E	E	I	H	C	T	J	O	N	T	I	F	T	G	N	U	
+n_words 58 avg 69.2 std 33.7 min 26 max 154 N 29 board:	I	W	Qu	H	Y	U	N	S	O	T	A	V	P	H	N	T	
+n_words 54 avg 68.7 std 33.2 min 26 max 154 N 30 board:	S	G	O	O	U	L	N	R	G	D	T	F	I	N	U	T	
+n_words 62 avg 68.5 std 32.7 min 26 max 154 N 31 board:	T	R	T	V	N	S	O	I	R	N	W	Y	U	D	D	F	
+n_words 91 avg 69.2 std 32.4 min 26 max 154 N 32 board:	L	H	J	H	N	E	I	R	O	T	I	D	T	U	S	P	
+n_words 61 avg 69.0 std 32.0 min 26 max 154 N 33 board:	G	F	R	Z	P	Y	D	T	O	B	E	O	G	I	M	U	
+n_words 110 avg 70.2 std 32.3 min 26 max 154 N 34 board:	Qu	S	S	R	E	U	H	E	D	N	G	O	O	T	R	C	
+n_words 102 avg 71.1 std 32.2 min 26 max 154 N 35 board:	M	E	A	A	E	P	L	T	G	I	B	L	O	R	L	T	
+n_words 163 avg 73.6 std 35.2 min 26 max 163 N 36 board:	U	U	E	A	P	T	L	A	E	E	D	I	R	S	L	O	
+n_words 143 avg 75.5 std 36.5 min 26 max 163 N 37 board:	P	L	E	L	R	E	O	E	U	R	B	N	C	L	A	I	
+n_words 55 avg 75.0 std 36.1 min 26 max 163 N 38 board:	N	E	E	I	N	W	E	T	K	I	V	J	E	A	D	H	
+n_words 39 avg 74.1 std 36.1 min 26 max 163 N 39 board:	G	M	W	B	L	O	Z	E	S	S	Y	S	E	X	O	Qu	
+n_words 83 avg 74.3 std 35.7 min 26 max 163 N 40 board:	D	C	A	E	L	T	L	I	I	U	A	S	A	S	E	E	
+n_words 34 avg 73.3 std 35.8 min 26 max 163 N 41 board:	O	S	S	B	M	L	Y	T	L	L	G	P	E	O	E	Qu	
+n_words 42 avg 72.5 std 35.7 min 26 max 163 N 42 board:	G	O	I	I	V	F	L	L	S	S	N	M	O	H	E	O	
+n_words 79 avg 72.7 std 35.3 min 26 max 163 N 43 board:	E	T	T	I	B	D	I	E	R	M	H	S	E	P	N	I	
+n_words 50 avg 72.2 std 35.1 min 26 max 163 N 44 board:	D	J	N	F	E	T	H	L	W	Y	O	N	C	T	E	I	
+n_words 67 avg 72.1 std 34.7 min 26 max 163 N 45 board:	T	E	O	F	L	B	S	E	H	N	D	E	S	E	T	I	
+n_words 72 avg 72.1 std 34.3 min 26 max 163 N 46 board:	I	L	N	V	T	Y	A	C	O	Qu	S	I	E	N	A	S	
+n_words 62 avg 71.9 std 34.0 min 26 max 163 N 47 board:	N	V	S	S	S	E	G	T	L	P	O	O	T	Qu	V	T	
+n_words 103 avg 72.5 std 33.9 min 26 max 163 N 48 board:	H	G	I	P	S	I	Qu	T	D	R	M	R	G	A	I	E	
+n_words 82 avg 72.7 std 33.6 min 26 max 163 N 49 board:	T	D	H	S	A	O	S	I	E	T	Z	M	M	O	E	X	
+n_words 101 avg 73.3 std 33.5 min 26 max 163 N 50 board:	R	J	W	M	H	E	E	R	T	P	W	R	S	I	S	P	
+n_words 94 avg 73.7 std 33.3 min 26 max 163 N 51 board:	A	Y	T	O	H	M	E	N	D	Qu	A	A	O	R	N	S	
+n_words 135 avg 74.8 std 34.0 min 26 max 163 N 52 board:	E	N	R	T	P	E	O	B	Z	N	I	D	A	F	D	E	
+n_words 91 avg 75.2 std 33.8 min 26 max 163 N 53 board:	E	T	Z	A	E	R	N	A	N	S	P	B	T	T	I	U	
+n_words 124 avg 76.1 std 34.1 min 26 max 163 N 54 board:	L	L	T	W	R	G	O	N	Y	E	I	R	E	O	A	F	
+n_words 92 avg 76.3 std 33.8 min 26 max 163 N 55 board:	D	N	B	C	T	L	A	A	O	D	N	E	E	W	V	K	
+n_words 92 avg 76.6 std 33.6 min 26 max 163 N 56 board:	V	O	E	S	T	L	O	C	R	Qu	S	P	N	S	E	I	
+n_words 103 avg 77.1 std 33.5 min 26 max 163 N 57 board:	E	B	E	C	O	I	N	A	A	W	L	Y	A	R	E	N	
+n_words 146 avg 78.3 std 34.4 min 26 max 163 N 58 board:	M	R	D	T	L	O	E	T	A	U	T	E	E	T	O	S	
+n_words 74 avg 78.2 std 34.1 min 26 max 163 N 59 board:	H	R	O	R	E	O	I	H	R	I	B	S	A	O	A	E	
+n_words 143 avg 79.3 std 34.8 min 26 max 163 N 60 board:	I	G	O	M	Y	R	E	I	O	U	E	N	F	T	C	H	
+n_words 66 avg 79.1 std 34.6 min 26 max 163 N 61 board:	U	C	F	H	O	O	U	T	D	W	D	R	A	T	R	E	
+n_words 136 avg 80.0 std 35.0 min 26 max 163 N 62 board:	D	O	M	N	D	R	V	E	E	O	C	A	O	N	T	O	
+n_words 28 avg 79.2 std 35.4 min 26 max 163 N 63 board:	O	Qu	V	H	R	M	R	X	T	G	F	Y	R	A	W	S	
+n_words 136 avg 80.0 std 35.8 min 26 max 163 N 64 board:	A	M	E	E	E	T	E	H	D	R	A	O	K	H	H	S	
+n_words 91 avg 80.2 std 35.5 min 26 max 163 N 65 board:	W	M	S	U	T	B	I	L	P	D	N	S	R	E	I	N	
+n_words 64 avg 80.0 std 35.3 min 26 max 163 N 66 board:	W	U	E	T	J	O	D	R	T	E	S	Y	M	Qu	S	A	
+n_words 56 avg 79.6 std 35.2 min 26 max 163 N 67 board:	B	E	P	C	A	E	I	E	T	T	T	C	O	Z	D	Y	
+n_words 80 avg 79.6 std 34.9 min 26 max 163 N 68 board:	B	T	R	E	H	T	U	E	Y	R	O	E	A	R	S	T	
+n_words 42 avg 79.1 std 34.9 min 26 max 163 N 69 board:	S	H	U	M	E	Y	R	I	N	W	W	O	N	F	E	R	
+n_words 78 avg 79.1 std 34.7 min 26 max 163 N 70 board:	B	E	L	C	E	T	I	Qu	A	O	U	T	S	F	E	U	
+n_words 63 avg 78.8 std 34.5 min 26 max 163 N 71 board:	T	O	Y	D	S	E	U	E	S	S	H	T	H	R	T	L	
+n_words 9 avg 77.9 std 35.2 min 9 max 163 N 72 board:	S	S	X	K	D	S	N	T	W	V	G	T	H	A	Z	W	
+n_words 116 avg 78.4 std 35.3 min 9 max 163 N 73 board:	E	A	B	S	S	M	R	H	H	E	H	F	O	Y	D	W	
+n_words 31 avg 77.7 std 35.4 min 9 max 163 N 74 board:	H	T	N	A	V	Y	K	P	O	I	N	N	X	W	R	U	
+n_words 98 avg 78.0 std 35.3 min 9 max 163 N 75 board:	T	N	T	N	A	H	O	H	E	E	R	I	B	R	O	T	
+n_words 194 avg 79.5 std 37.5 min 9 max 194 N 76 board:	A	E	S	F	H	M	E	N	R	S	A	T	S	L	N	I	
+n_words 90 avg 79.7 std 37.2 min 9 max 194 N 77 board:	I	F	G	T	V	M	A	E	T	E	E	T	T	V	A	N	
+n_words 101 avg 79.9 std 37.1 min 9 max 194 N 78 board:	E	E	P	M	E	O	E	U	N	W	T	E	F	R	O	V	
+n_words 100 avg 80.2 std 36.9 min 9 max 194 N 79 board:	T	E	T	H	R	Y	A	C	H	R	A	E	U	E	A	A	
+n_words 69 avg 80.1 std 36.7 min 9 max 194 N 80 board:	U	E	N	A	H	R	S	U	E	W	Qu	E	B	R	E	P	
+n_words 76 avg 80.0 std 36.5 min 9 max 194 N 81 board:	N	W	V	J	U	L	I	O	G	A	O	R	O	Y	T	I	
+n_words 58 avg 79.7 std 36.3 min 9 max 194 N 82 board:	E	R	O	W	O	D	U	U	H	E	H	I	R	H	P	R	
+n_words 62 avg 79.5 std 36.2 min 9 max 194 N 83 board:	J	A	Qu	W	N	D	E	V	O	K	Y	E	Z	C	C	S	
+n_words 79 avg 79.5 std 35.9 min 9 max 194 N 84 board:	A	U	T	A	I	T	W	O	O	V	E	S	T	T	H	E	
+n_words 82 avg 79.6 std 35.7 min 9 max 194 N 85 board:	E	B	W	Y	S	I	H	A	T	E	W	Qu	M	W	E	L	
+n_words 36 avg 79.0 std 35.8 min 9 max 194 N 86 board:	S	B	M	U	P	G	T	H	D	Qu	L	A	T	F	W	S	
+n_words 17 avg 78.3 std 36.2 min 9 max 194 N 87 board:	N	B	W	T	E	N	W	E	L	S	P	T	H	W	F	U	
+n_words 70 avg 78.2 std 36.0 min 9 max 194 N 88 board:	Y	C	P	W	R	I	S	A	O	R	Qu	E	O	G	T	L	
+n_words 89 avg 78.4 std 35.9 min 9 max 194 N 89 board:	E	N	E	N	M	O	D	H	T	P	F	A	U	S	T	D	
+n_words 115 avg 78.8 std 35.9 min 9 max 194 N 90 board:	N	E	O	Y	A	B	E	A	H	A	I	S	R	R	T	R	
+n_words 127 avg 79.3 std 36.0 min 9 max 194 N 91 board:	N	W	J	D	P	A	R	A	U	R	E	S	E	E	O	U	
+n_words 129 avg 79.8 std 36.2 min 9 max 194 N 92 board:	A	O	T	T	Qu	O	N	L	R	A	E	O	T	A	S	H	
+n_words 48 avg 79.5 std 36.1 min 9 max 194 N 93 board:	C	Y	N	N	V	E	N	C	E	L	E	R	J	O	F	R	
+n_words 28 avg 78.9 std 36.3 min 9 max 194 N 94 board:	A	C	S	H	H	X	T	K	T	Qu	U	H	L	M	B	R	
+n_words 110 avg 79.3 std 36.3 min 9 max 194 N 95 board:	R	S	N	A	Y	S	I	C	R	D	A	P	A	N	U	E	
+n_words 112 avg 79.6 std 36.2 min 9 max 194 N 96 board:	L	S	B	D	I	Y	L	P	N	A	A	D	I	S	R	P	
+n_words 28 avg 79.1 std 36.4 min 9 max 194 N 97 board:	S	Y	N	T	L	R	J	T	S	T	T	I	P	O	G	E	
+n_words 83 avg 79.1 std 36.2 min 9 max 194 N 98 board:	E	N	P	T	T	E	O	A	X	I	H	I	E	R	U	F	
+n_words 42 avg 78.7 std 36.3 min 9 max 194 N 99 board:	A	O	W	Qu	L	H	J	T	D	S	N	I	C	N	S	R	
+n_words 69 avg 78.7 std 36.1 min 9 max 194 N 100 board:	E	C	I	E	B	L	D	O	N	D	N	P	S	T	E	G	
+n_words 52 avg 78.4 std 36.0 min 9 max 194 N 101 board:	T	H	N	O	S	N	L	H	I	T	O	O	V	U	I	H	
+n_words 84 avg 78.4 std 35.8 min 9 max 194 N 102 board:	A	C	S	A	H	L	E	E	N	U	H	D	I	E	S	O	
+n_words 112 avg 78.8 std 35.8 min 9 max 194 N 103 board:	E	D	S	R	Y	T	A	T	I	M	A	H	L	I	A	A	
+n_words 56 avg 78.5 std 35.7 min 9 max 194 N 104 board:	E	O	P	P	R	O	I	S	H	Qu	I	L	Y	T	H	Y	
+n_words 141 avg 79.1 std 36.1 min 9 max 194 N 105 board:	D	O	E	U	T	B	N	Y	M	E	A	E	E	S	D	N	
+n_words 123 avg 79.6 std 36.1 min 9 max 194 N 106 board:	A	S	A	W	N	T	E	R	T	F	T	Z	V	I	C	N	
+n_words 111 avg 79.9 std 36.1 min 9 max 194 N 107 board:	T	E	M	A	I	A	A	S	V	E	P	W	H	R	T	E	
+n_words 66 avg 79.7 std 35.9 min 9 max 194 N 108 board:	O	D	R	D	G	Y	E	M	N	O	O	J	A	U	R	N	
+n_words 128 avg 80.2 std 36.1 min 9 max 194 N 109 board:	N	B	A	W	U	O	E	D	U	T	L	L	W	S	R	E	
+n_words 75 avg 80.1 std 35.9 min 9 max 194 N 110 board:	I	N	E	O	V	Qu	V	I	T	E	O	A	N	R	A	B	
+n_words 67 avg 80.0 std 35.8 min 9 max 194 N 111 board:	H	H	T	V	N	F	O	S	O	Y	T	E	E	A	O	L	
+n_words 150 avg 80.6 std 36.2 min 9 max 194 N 112 board:	E	D	A	N	K	R	E	T	R	R	B	A	O	N	T	L	
+n_words 45 avg 80.3 std 36.2 min 9 max 194 N 113 board:	E	R	X	E	I	I	E	E	S	O	Z	T	T	F	E	A	
+n_words 50 avg 80.0 std 36.2 min 9 max 194 N 114 board:	T	M	A	H	S	C	D	D	S	Y	T	O	W	O	D	A	
+n_words 69 avg 79.9 std 36.0 min 9 max 194 N 115 board:	R	W	H	A	B	I	M	T	I	E	D	H	D	T	V	G	
+n_words 121 avg 80.3 std 36.1 min 9 max 194 N 116 board:	S	N	L	P	A	S	E	M	O	V	U	R	L	Y	I	L	
+n_words 63 avg 80.2 std 35.9 min 9 max 194 N 117 board:	H	V	S	T	P	T	T	W	O	I	N	I	O	A	T	H	
+n_words 101 avg 80.3 std 35.8 min 9 max 194 N 118 board:	D	S	H	E	I	H	R	J	E	A	O	M	E	R	S	T	
+n_words 117 avg 80.6 std 35.8 min 9 max 194 N 119 board:	Y	I	M	O	E	K	G	N	A	S	O	O	T	I	R	E	
+n_words 96 avg 80.8 std 35.7 min 9 max 194 N 120 board:	D	N	H	C	A	N	E	B	E	T	Y	R	K	I	W	Y	
+n_words 114 avg 81.0 std 35.7 min 9 max 194 N 121 board:	B	S	D	P	O	T	G	D	V	D	E	N	U	R	A	T	
+n_words 75 avg 81.0 std 35.6 min 9 max 194 N 122 board:	H	E	R	F	T	O	G	H	R	V	S	O	G	R	T	Y	
+n_words 99 avg 81.1 std 35.5 min 9 max 194 N 123 board:	W	T	A	R	I	N	B	I	H	A	N	T	U	V	E	I	
+n_words 49 avg 80.9 std 35.4 min 9 max 194 N 124 board:	L	A	I	N	W	W	S	S	I	L	H	D	N	G	L	K	
+n_words 68 avg 80.8 std 35.3 min 9 max 194 N 125 board:	G	L	A	L	O	S	L	T	I	N	R	S	A	E	M	L	
+n_words 149 avg 81.3 std 35.7 min 9 max 194 N 126 board:	Y	E	E	C	T	E	F	I	D	A	N	Y	R	O	T	N	
+n_words 77 avg 81.3 std 35.5 min 9 max 194 N 127 board:	Qu	E	R	W	L	P	T	O	T	W	N	M	I	O	D	S	
+n_words 74 avg 81.2 std 35.4 min 9 max 194 N 128 board:	E	H	E	H	Z	R	A	F	E	E	O	U	D	T	O	E	
+n_words 22 avg 80.8 std 35.7 min 9 max 194 N 129 board:	P	S	O	E	D	S	I	H	N	Qu	I	B	V	T	G	X	
+n_words 22 avg 80.3 std 35.9 min 9 max 194 N 130 board:	A	A	O	T	H	U	A	I	S	X	Y	E	I	Y	H	M	
+n_words 58 avg 80.1 std 35.8 min 9 max 194 N 131 board:	H	I	T	S	T	I	E	C	N	H	B	A	L	L	N	F	
+n_words 125 avg 80.5 std 35.9 min 9 max 194 N 132 board:	F	A	T	Z	W	P	B	Qu	A	O	S	E	R	S	L	Y	
+n_words 47 avg 80.2 std 35.9 min 9 max 194 N 133 board:	F	D	E	P	G	S	Y	O	W	H	D	O	N	I	C	Y	
+n_words 104 avg 80.4 std 35.8 min 9 max 194 N 134 board:	R	B	I	W	I	R	E	R	E	S	S	T	X	P	D	A	
+n_words 76 avg 80.4 std 35.6 min 9 max 194 N 135 board:	S	S	T	O	S	N	Y	I	R	A	R	B	R	N	F	O	
+n_words 148 avg 80.9 std 36.0 min 9 max 194 N 136 board:	I	G	S	R	O	R	I	L	O	O	A	O	S	S	T	E	
+n_words 61 avg 80.7 std 35.9 min 9 max 194 N 137 board:	S	R	I	N	R	Qu	T	K	J	E	Y	O	L	P	O	Y	
+n_words 58 avg 80.6 std 35.8 min 9 max 194 N 138 board:	E	C	H	N	F	V	N	O	E	A	J	E	N	I	Y	R	
+n_words 80 avg 80.6 std 35.7 min 9 max 194 N 139 board:	C	E	R	O	H	O	H	O	R	N	M	S	Y	I	G	D	
+n_words 125 avg 80.9 std 35.8 min 9 max 194 N 140 board:	I	K	I	N	L	T	N	E	Qu	A	T	R	T	P	T	I	
+n_words 98 avg 81.0 std 35.7 min 9 max 194 N 141 board:	R	U	N	D	V	S	O	Y	P	L	U	T	N	E	F	A	
+n_words 134 avg 81.4 std 35.8 min 9 max 194 N 142 board:	T	X	S	S	L	E	N	G	S	O	E	E	P	C	M	N	
+n_words 76 avg 81.3 std 35.7 min 9 max 194 N 143 board:	I	T	I	L	A	E	T	O	N	Y	E	O	N	C	E	S	
+n_words 75 avg 81.3 std 35.6 min 9 max 194 N 144 board:	S	H	K	L	R	T	T	N	U	W	O	D	H	E	E	R	
+n_words 58 avg 81.1 std 35.5 min 9 max 194 N 145 board:	H	L	P	Z	O	H	Y	E	T	R	S	E	G	W	H	B	
+n_words 43 avg 80.9 std 35.5 min 9 max 194 N 146 board:	T	H	O	F	N	D	H	E	A	O	O	M	O	H	E	E	
+n_words 76 avg 80.8 std 35.4 min 9 max 194 N 147 board:	S	F	R	E	R	A	I	X	I	H	G	S	G	A	V	U	
+n_words 74 avg 80.8 std 35.3 min 9 max 194 N 148 board:	A	I	R	F	Qu	T	Y	P	V	E	H	L	N	N	O	T	
+n_words 53 avg 80.6 std 35.2 min 9 max 194 N 149 board:	E	M	H	U	E	K	T	E	E	D	U	E	B	T	P	O	
+n_words 61 avg 80.5 std 35.2 min 9 max 194 N 150 board:	A	E	C	D	E	R	Z	T	S	B	T	W	S	U	H	N	
+n_words 70 avg 80.4 std 35.0 min 9 max 194 N 151 board:	D	B	L	S	O	O	H	E	N	N	I	H	M	N	R	F	
+n_words 104 avg 80.6 std 35.0 min 9 max 194 N 152 board:	M	S	Y	H	A	N	T	A	E	A	S	W	X	S	U	J	
+n_words 60 avg 80.4 std 34.9 min 9 max 194 N 153 board:	I	C	I	A	O	L	S	O	A	I	V	E	E	H	E	H	
+n_words 36 avg 80.1 std 35.0 min 9 max 194 N 154 board:	E	S	E	N	Y	J	A	U	T	H	Qu	N	Y	I	T	R	
+n_words 186 avg 80.8 std 35.9 min 9 max 194 N 155 board:	W	P	H	O	N	A	T	E	I	S	E	B	U	T	H	L	
+n_words 111 avg 81.0 std 35.8 min 9 max 194 N 156 board:	S	Y	O	L	B	A	Qu	S	H	L	R	Y	S	E	P	M	
+n_words 117 avg 81.2 std 35.8 min 9 max 194 N 157 board:	Qu	A	T	T	N	O	T	E	E	C	M	E	P	O	S	H	
+n_words 72 avg 81.2 std 35.7 min 9 max 194 N 158 board:	T	R	T	X	S	H	U	N	C	E	L	O	J	O	Qu	R	
+n_words 78 avg 81.2 std 35.6 min 9 max 194 N 159 board:	Y	I	O	T	T	T	W	U	F	L	E	J	T	E	N	P	
+n_words 51 avg 81.0 std 35.6 min 9 max 194 N 160 board:	E	I	E	J	V	O	H	T	M	Z	S	E	S	D	W	E	
+n_words 128 avg 81.3 std 35.7 min 9 max 194 N 161 board:	R	N	O	A	E	I	L	Z	R	F	T	T	A	S	U	E	
+n_words 82 avg 81.3 std 35.6 min 9 max 194 N 162 board:	H	G	L	F	O	O	V	S	S	T	S	R	I	A	I	N	
+n_words 86 avg 81.3 std 35.5 min 9 max 194 N 163 board:	T	H	E	Y	A	L	P	O	G	N	N	X	E	R	T	O	
+n_words 49 avg 81.1 std 35.4 min 9 max 194 N 164 board:	Z	C	H	E	W	T	E	X	G	K	S	B	U	D	E	T	
+n_words 77 avg 81.1 std 35.3 min 9 max 194 N 165 board:	A	T	F	O	S	O	U	T	W	E	E	S	W	I	V	Z	
+n_words 71 avg 81.0 std 35.2 min 9 max 194 N 166 board:	T	T	W	A	E	N	V	P	I	D	E	U	T	N	B	E	
+n_words 59 avg 80.9 std 35.2 min 9 max 194 N 167 board:	Y	A	L	H	N	P	N	A	T	L	U	V	T	T	N	R	
+n_words 77 avg 80.9 std 35.1 min 9 max 194 N 168 board:	E	T	Y	D	E	O	R	Z	R	S	G	K	Qu	I	O	E	
+n_words 65 avg 80.8 std 35.0 min 9 max 194 N 169 board:	T	K	T	Z	S	V	E	R	E	T	W	H	P	N	J	E	
+n_words 111 avg 80.9 std 35.0 min 9 max 194 N 170 board:	T	O	W	D	S	C	G	E	E	N	U	D	B	M	P	R	
+n_words 75 avg 80.9 std 34.9 min 9 max 194 N 171 board:	T	L	T	S	T	O	H	L	W	W	O	D	E	Y	F	A	
+n_words 125 avg 81.2 std 34.9 min 9 max 194 N 172 board:	D	T	I	I	E	K	B	M	I	A	T	E	T	N	S	I	
+n_words 69 avg 81.1 std 34.8 min 9 max 194 N 173 board:	R	T	E	S	E	P	J	T	R	G	M	A	R	G	U	S	
+n_words 111 avg 81.3 std 34.8 min 9 max 194 N 174 board:	U	M	R	H	T	R	A	U	D	C	O	R	A	A	T	E	
+n_words 186 avg 81.9 std 35.6 min 9 max 194 N 175 board:	E	C	U	S	O	R	T	E	T	A	U	H	E	N	N	E	
+n_words 58 avg 81.7 std 35.5 min 9 max 194 N 176 board:	O	L	L	F	T	H	W	V	T	A	T	U	C	T	E	N	
+n_words 104 avg 81.9 std 35.5 min 9 max 194 N 177 board:	G	L	W	N	S	R	T	O	D	E	L	S	A	R	S	O	
+n_words 53 avg 81.7 std 35.4 min 9 max 194 N 178 board:	O	H	S	E	D	S	P	L	U	T	F	N	D	A	I	I	
+n_words 35 avg 81.4 std 35.5 min 9 max 194 N 179 board:	E	M	H	V	O	T	T	S	A	G	R	V	A	T	N	T	
+n_words 82 avg 81.4 std 35.4 min 9 max 194 N 180 board:	I	O	R	G	S	S	R	B	S	R	U	H	E	T	T	F	
+n_words 92 avg 81.5 std 35.3 min 9 max 194 N 181 board:	H	L	O	P	E	O	H	W	G	A	E	Y	C	D	E	E	
+n_words 30 avg 81.2 std 35.4 min 9 max 194 N 182 board:	E	F	E	S	H	Y	D	E	R	L	Y	I	W	C	J	Y	
+n_words 124 avg 81.4 std 35.5 min 9 max 194 N 183 board:	U	O	R	E	W	S	A	U	T	I	S	T	H	A	F	A	
+n_words 42 avg 81.2 std 35.5 min 9 max 194 N 184 board:	W	I	E	W	T	O	I	U	K	T	D	P	H	B	D	I	
+n_words 101 avg 81.3 std 35.4 min 9 max 194 N 185 board:	S	T	I	R	N	I	H	E	E	P	B	T	U	C	S	T	
+n_words 183 avg 81.9 std 36.1 min 9 max 194 N 186 board:	A	O	F	E	O	G	N	U	D	I	R	E	W	L	T	A	
+n_words 48 avg 81.7 std 36.1 min 9 max 194 N 187 board:	U	A	O	N	A	D	Y	H	T	U	G	D	T	O	E	K	
+n_words 57 avg 81.6 std 36.0 min 9 max 194 N 188 board:	T	D	Qu	E	O	P	F	O	E	E	W	T	T	E	D	R	
+n_words 57 avg 81.4 std 36.0 min 9 max 194 N 189 board:	U	F	N	A	R	D	E	T	L	J	Qu	S	T	C	G	E	
+n_words 62 avg 81.3 std 35.9 min 9 max 194 N 190 board:	T	W	F	Y	D	V	I	S	O	G	R	O	E	H	T	R	
+n_words 86 avg 81.4 std 35.8 min 9 max 194 N 191 board:	I	I	E	A	A	G	H	V	D	L	T	S	S	F	A	E	
+n_words 126 avg 81.6 std 35.9 min 9 max 194 N 192 board:	E	R	Z	F	G	A	T	S	I	O	D	O	E	H	R	H	
+n_words 18 avg 81.3 std 36.1 min 9 max 194 N 193 board:	T	O	S	O	F	C	G	T	N	C	T	Qu	T	L	E	V	
+n_words 60 avg 81.2 std 36.0 min 9 max 194 N 194 board:	U	O	L	E	U	S	T	Y	M	B	R	I	E	T	S	Y	
+n_words 38 avg 80.9 std 36.1 min 9 max 194 N 195 board:	I	H	P	D	A	E	T	B	T	T	V	N	R	F	N	E	
+n_words 88 avg 81.0 std 36.0 min 9 max 194 N 196 board:	T	O	O	U	V	S	T	O	A	I	N	M	S	D	N	H	
+n_words 125 avg 81.2 std 36.0 min 9 max 194 N 197 board:	N	V	E	N	E	R	T	B	I	R	S	O	T	E	M	A	
+n_words 41 avg 81.0 std 36.0 min 9 max 194 N 198 board:	R	F	E	T	I	H	G	J	E	T	H	N	U	G	D	I	
+n_words 119 avg 81.2 std 36.0 min 9 max 194 N 199 board:	E	A	M	R	T	O	L	U	E	D	Y	E	I	H	A	B	
+n_words 71 avg 81.1 std 36.0 min 9 max 194 N 200 board:	T	O	U	R	O	M	U	S	H	E	H	O	V	H	T	D	
+n_words 126 avg 81.4 std 36.0 min 9 max 194 N 201 board:	H	C	T	R	B	E	K	S	A	N	E	Y	O	L	R	N	
+n_words 96 avg 81.4 std 35.9 min 9 max 194 N 202 board:	R	E	T	I	Z	A	A	U	V	U	P	I	B	S	E	L	
+n_words 31 avg 81.2 std 36.0 min 9 max 194 N 203 board:	O	R	O	E	Qu	I	O	E	A	H	O	X	F	R	E	E	
+n_words 87 avg 81.2 std 35.9 min 9 max 194 N 204 board:	N	E	I	M	T	E	A	I	T	I	A	W	S	C	R	S	
+n_words 88 avg 81.2 std 35.9 min 9 max 194 N 205 board:	E	S	S	T	T	R	T	A	E	T	P	M	H	B	W	N	
+n_words 85 avg 81.3 std 35.8 min 9 max 194 N 206 board:	O	V	E	P	N	B	E	H	R	I	N	P	I	R	S	A	
+n_words 168 avg 81.7 std 36.2 min 9 max 194 N 207 board:	E	R	I	E	E	T	S	I	G	O	A	U	T	F	L	E	
+n_words 94 avg 81.7 std 36.1 min 9 max 194 N 208 board:	O	O	O	N	U	L	L	E	I	S	S	A	I	E	G	E	
+n_words 68 avg 81.7 std 36.0 min 9 max 194 N 209 board:	H	A	L	S	G	O	K	R	P	H	E	Y	U	H	I	I	
+n_words 65 avg 81.6 std 36.0 min 9 max 194 N 210 board:	R	L	U	A	O	A	X	N	E	A	C	S	R	R	B	T	
+n_words 31 avg 81.4 std 36.0 min 9 max 194 N 211 board:	L	I	A	A	O	Z	I	K	N	I	C	T	O	I	W	E	
+n_words 120 avg 81.5 std 36.1 min 9 max 194 N 212 board:	M	A	Y	O	T	L	A	H	O	T	I	E	A	S	L	Z	
+n_words 67 avg 81.5 std 36.0 min 9 max 194 N 213 board:	E	L	I	R	E	I	I	O	T	B	I	S	G	A	H	Y	
+n_words 44 avg 81.3 std 36.0 min 9 max 194 N 214 board:	R	W	N	Qu	C	B	E	I	N	U	W	N	P	S	L	L	
+n_words 111 avg 81.4 std 36.0 min 9 max 194 N 215 board:	N	E	T	K	I	M	E	E	T	E	L	B	W	S	H	M	
+n_words 37 avg 81.2 std 36.0 min 9 max 194 N 216 board:	G	Y	Y	L	T	R	U	W	A	S	Y	Qu	U	C	G	F	
+n_words 107 avg 81.3 std 36.0 min 9 max 194 N 217 board:	T	H	N	D	T	I	O	N	R	Qu	E	L	A	A	I	T	
+n_words 111 avg 81.5 std 35.9 min 9 max 194 N 218 board:	T	T	O	W	R	T	V	H	N	E	I	F	L	N	E	C	
+n_words 27 avg 81.2 std 36.0 min 9 max 194 N 219 board:	S	T	N	M	T	Y	X	Qu	Z	P	A	T	J	T	Y	W	
+n_words 69 avg 81.2 std 36.0 min 9 max 194 N 220 board:	N	O	V	O	O	S	N	X	N	O	D	A	E	A	T	T	
+n_words 118 avg 81.3 std 36.0 min 9 max 194 N 221 board:	A	A	E	V	N	H	S	L	E	O	K	A	T	C	U	R	
+n_words 85 avg 81.4 std 35.9 min 9 max 194 N 222 board:	L	W	C	O	K	E	S	D	R	N	A	U	H	D	S	S	
+n_words 92 avg 81.4 std 35.8 min 9 max 194 N 223 board:	A	M	B	F	I	R	T	X	L	I	S	E	N	V	S	W	
+n_words 65 avg 81.3 std 35.8 min 9 max 194 N 224 board:	C	Qu	H	T	E	L	S	A	E	L	D	O	L	B	E	S	
+n_words 139 avg 81.6 std 35.9 min 9 max 194 N 225 board:	Y	C	T	Y	X	E	R	N	K	O	A	I	T	M	V	A	
+n_words 97 avg 81.7 std 35.8 min 9 max 194 N 226 board:	T	U	E	I	W	Y	A	V	E	L	A	W	S	E	N	O	
+n_words 99 avg 81.7 std 35.8 min 9 max 194 N 227 board:	E	E	H	N	E	O	L	F	Z	T	M	R	A	E	E	A	
+n_words 112 avg 81.9 std 35.7 min 9 max 194 N 228 board:	B	D	E	Y	T	E	T	F	I	N	R	M	P	I	T	S	
+n_words 142 avg 82.1 std 35.9 min 9 max 194 N 229 board:	N	A	W	O	R	O	H	E	D	I	R	P	A	Z	T	I	
+n_words 67 avg 82.1 std 35.8 min 9 max 194 N 230 board:	U	O	G	S	N	Y	O	N	T	O	K	D	D	E	O	O	
+n_words 74 avg 82.0 std 35.7 min 9 max 194 N 231 board:	O	N	T	E	O	T	L	E	A	O	W	W	I	H	E	F	
+n_words 79 avg 82.0 std 35.7 min 9 max 194 N 232 board:	H	R	A	E	I	F	C	T	E	T	N	L	I	A	H	O	
+n_words 109 avg 82.1 std 35.6 min 9 max 194 N 233 board:	E	W	T	M	G	C	O	K	R	O	R	E	R	H	T	U	
+n_words 131 avg 82.3 std 35.7 min 9 max 194 N 234 board:	H	S	O	R	S	B	T	S	P	I	L	C	X	A	E	T	
+n_words 60 avg 82.2 std 35.7 min 9 max 194 N 235 board:	D	I	O	E	A	H	O	C	S	O	F	E	D	Z	E	R	
+n_words 36 avg 82.1 std 35.7 min 9 max 194 N 236 board:	T	I	U	A	L	D	W	C	X	F	A	D	I	H	N	H	
+n_words 66 avg 82.0 std 35.6 min 9 max 194 N 237 board:	T	E	M	D	W	N	T	A	U	S	F	B	X	G	N	S	
+n_words 115 avg 82.1 std 35.6 min 9 max 194 N 238 board:	T	O	C	H	D	E	S	R	S	R	I	I	S	E	N	H	
+n_words 85 avg 82.1 std 35.6 min 9 max 194 N 239 board:	M	S	T	P	V	V	O	N	U	E	E	L	P	E	T	L	
+n_words 57 avg 82.0 std 35.5 min 9 max 194 N 240 board:	E	W	E	Y	P	X	T	L	Y	J	O	N	L	S	M	I	
+n_words 59 avg 81.9 std 35.5 min 9 max 194 N 241 board:	M	I	G	I	T	E	O	P	E	E	E	P	L	O	D	E	
+n_words 112 avg 82.1 std 35.5 min 9 max 194 N 242 board:	O	F	E	H	W	L	I	V	T	A	V	D	S	S	T	A	
+n_words 154 avg 82.4 std 35.7 min 9 max 194 N 243 board:	W	P	O	T	R	A	N	E	G	H	A	O	S	T	M	R	
+n_words 50 avg 82.2 std 35.7 min 9 max 194 N 244 board:	U	U	T	D	H	H	W	O	A	Y	F	B	M	N	E	E	
+n_words 42 avg 82.1 std 35.7 min 9 max 194 N 245 board:	R	E	S	O	O	F	H	A	U	Y	V	M	C	Y	N	T	
+n_words 27 avg 81.8 std 35.8 min 9 max 194 N 246 board:	G	B	S	E	T	W	I	I	H	F	L	S	L	T	T	N	
+n_words 124 avg 82.0 std 35.8 min 9 max 194 N 247 board:	L	I	L	I	E	T	O	N	O	M	E	K	C	W	L	H	
+n_words 79 avg 82.0 std 35.7 min 9 max 194 N 248 board:	O	E	R	T	G	S	N	H	O	E	D	N	T	E	J	E	
+n_words 96 avg 82.0 std 35.7 min 9 max 194 N 249 board:	L	E	U	R	S	O	S	E	O	M	Y	G	F	O	E	D	
+n_words 63 avg 82.0 std 35.6 min 9 max 194 N 250 board:	J	N	W	U	N	L	I	E	K	A	O	T	L	A	Y	A	
+n_words 87 avg 82.0 std 35.6 min 9 max 194 N 251 board:	Y	E	Qu	T	L	O	E	H	C	D	P	N	O	V	S	B	
+n_words 19 avg 81.7 std 35.7 min 9 max 194 N 252 board:	I	O	T	H	X	Z	W	S	U	D	U	G	S	I	S	R	
+n_words 20 avg 81.5 std 35.9 min 9 max 194 N 253 board:	A	C	G	F	H	S	S	N	O	L	T	Y	H	L	N	C	
+n_words 81 avg 81.5 std 35.8 min 9 max 194 N 254 board:	D	L	E	O	T	U	H	U	T	S	N	T	E	V	G	O	
+n_words 64 avg 81.4 std 35.7 min 9 max 194 N 255 board:	U	N	V	T	A	U	E	F	W	O	E	O	A	L	L	I	
+n_words 129 avg 81.6 std 35.8 min 9 max 194 N 256 board:	H	R	I	K	T	E	C	R	E	I	O	U	L	Y	E	N	
+n_words 119 avg 81.8 std 35.8 min 9 max 194 N 257 board:	E	V	N	S	A	T	A	U	R	N	P	X	B	I	R	T	
+n_words 156 avg 82.0 std 36.0 min 9 max 194 N 258 board:	H	O	N	R	D	E	O	I	N	R	I	T	E	S	O	A	
+n_words 114 avg 82.2 std 36.0 min 9 max 194 N 259 board:	E	O	I	O	R	H	F	T	E	A	O	J	T	O	L	R	
+n_words 53 avg 82.1 std 36.0 min 9 max 194 N 260 board:	H	H	R	U	U	K	I	N	E	E	H	L	O	C	A	I	
+n_words 96 avg 82.1 std 35.9 min 9 max 194 N 261 board:	R	H	L	G	I	O	T	S	K	A	U	I	O	E	Y	E	
+n_words 66 avg 82.0 std 35.9 min 9 max 194 N 262 board:	L	L	I	O	T	U	L	K	C	I	S	N	E	Z	E	M	
+n_words 29 avg 81.8 std 35.9 min 9 max 194 N 263 board:	Z	O	A	E	Y	W	N	H	R	W	X	A	E	V	T	I	
+n_words 88 avg 81.9 std 35.9 min 9 max 194 N 264 board:	N	A	E	E	S	M	T	B	L	Y	I	H	T	T	R	H	
+n_words 150 avg 82.1 std 36.1 min 9 max 194 N 265 board:	I	A	O	O	T	R	N	V	T	I	E	B	N	D	G	E	
+n_words 22 avg 81.9 std 36.2 min 9 max 194 N 266 board:	H	C	E	O	Y	W	T	B	X	F	T	N	A	A	Y	Y	
+n_words 37 avg 81.7 std 36.2 min 9 max 194 N 267 board:	C	A	C	D	I	N	S	T	K	L	W	H	O	T	N	B	
+n_words 64 avg 81.7 std 36.2 min 9 max 194 N 268 board:	M	T	I	N	V	F	Y	L	S	C	I	L	B	E	D	E	
+n_words 54 avg 81.6 std 36.1 min 9 max 194 N 269 board:	S	L	I	T	M	G	H	E	O	T	L	L	V	B	S	F	
+n_words 59 avg 81.5 std 36.1 min 9 max 194 N 270 board:	N	M	P	O	E	E	D	S	T	Y	V	T	W	B	H	C	
+n_words 193 avg 81.9 std 36.7 min 9 max 194 N 271 board:	M	O	F	D	A	L	T	O	T	E	R	T	N	H	P	U	
+n_words 130 avg 82.1 std 36.7 min 9 max 194 N 272 board:	T	Y	S	S	T	S	U	L	O	E	C	A	R	E	H	T	
+n_words 109 avg 82.2 std 36.7 min 9 max 194 N 273 board:	V	S	O	M	E	A	R	L	I	K	T	U	O	A	D	N	
+n_words 37 avg 82.0 std 36.7 min 9 max 194 N 274 board:	O	T	B	A	G	U	F	E	L	H	X	S	Z	I	L	T	
+n_words 102 avg 82.1 std 36.7 min 9 max 194 N 275 board:	A	T	R	N	B	S	T	E	T	T	I	S	G	L	W	D	
+n_words 81 avg 82.1 std 36.6 min 9 max 194 N 276 board:	M	E	H	D	U	W	R	T	S	F	O	H	R	H	I	M	
+n_words 64 avg 82.0 std 36.5 min 9 max 194 N 277 board:	O	E	T	Y	S	N	W	K	L	G	U	P	I	M	T	E	
+n_words 149 avg 82.2 std 36.7 min 9 max 194 N 278 board:	H	E	A	F	R	O	O	N	N	R	A	S	D	M	E	Y	
+n_words 83 avg 82.3 std 36.6 min 9 max 194 N 279 board:	L	E	K	S	T	E	O	W	A	E	M	W	B	Y	H	L	
+n_words 91 avg 82.3 std 36.6 min 9 max 194 N 280 board:	A	A	T	H	D	D	S	O	D	L	H	R	B	O	E	E	
+n_words 31 avg 82.1 std 36.6 min 9 max 194 N 281 board:	W	G	I	I	L	K	H	X	J	W	S	T	R	L	O	G	
+n_words 132 avg 82.3 std 36.7 min 9 max 194 N 282 board:	H	L	O	I	N	T	R	T	Y	I	A	E	S	O	E	T	
+n_words 85 avg 82.3 std 36.6 min 9 max 194 N 283 board:	E	I	N	U	W	R	A	Y	D	S	D	H	P	R	U	C	
+n_words 37 avg 82.1 std 36.7 min 9 max 194 N 284 board:	O	H	N	T	B	H	E	H	Z	N	P	I	W	I	V	N	
+n_words 85 avg 82.1 std 36.6 min 9 max 194 N 285 board:	T	T	E	T	E	Y	C	N	M	O	H	I	F	D	E	V	
+n_words 42 avg 82.0 std 36.6 min 9 max 194 N 286 board:	T	P	S	N	W	T	F	G	E	S	O	L	E	O	Qu	V	
+n_words 46 avg 81.9 std 36.6 min 9 max 194 N 287 board:	H	G	L	S	V	M	S	R	S	Y	A	S	A	N	N	A	
+n_words 51 avg 81.8 std 36.6 min 9 max 194 N 288 board:	Qu	X	A	S	T	D	H	R	L	T	T	B	O	I	F	E	
+n_words 62 avg 81.7 std 36.5 min 9 max 194 N 289 board:	I	A	T	Y	E	M	N	Z	O	E	I	J	I	Y	K	I	
+n_words 153 avg 81.9 std 36.7 min 9 max 194 N 290 board:	L	A	T	E	S	N	T	Z	H	C	A	S	E	K	R	O	
+n_words 83 avg 81.9 std 36.6 min 9 max 194 N 291 board:	Z	I	E	S	D	H	F	P	N	E	T	I	T	Y	C	O	
+n_words 31 avg 81.8 std 36.7 min 9 max 194 N 292 board:	I	A	R	F	O	U	L	W	I	A	D	G	I	H	U	W	
+n_words 96 avg 81.8 std 36.7 min 9 max 194 N 293 board:	D	I	T	R	R	W	E	E	O	C	P	E	S	Z	E	M	
+n_words 13 avg 81.6 std 36.8 min 9 max 194 N 294 board:	U	T	W	Y	U	W	Qu	E	H	W	J	L	T	N	L	K	
+n_words 33 avg 81.4 std 36.9 min 9 max 194 N 295 board:	U	Y	U	H	O	K	H	D	O	G	L	W	T	N	S	E	
+n_words 102 avg 81.5 std 36.8 min 9 max 194 N 296 board:	N	W	H	R	O	N	S	L	S	E	G	S	T	U	R	D	
+n_words 183 avg 81.8 std 37.2 min 9 max 194 N 297 board:	E	Y	R	G	P	M	O	A	R	L	T	T	O	E	S	E	
+n_words 86 avg 81.8 std 37.2 min 9 max 194 N 298 board:	J	E	C	L	I	H	I	T	T	I	N	O	E	K	N	I	
+n_words 188 avg 82.2 std 37.6 min 9 max 194 N 299 board:	R	A	S	I	T	E	K	N	D	E	U	O	O	N	T	Y	
+n_words 46 avg 82.1 std 37.6 min 9 max 194 N 300 board:	W	N	V	E	N	H	Y	S	P	E	E	O	B	P	O	S	
+n_words 54 avg 82.0 std 37.6 min 9 max 194 N 301 board:	D	V	A	H	Y	I	I	E	N	O	A	E	E	H	X	T	
+n_words 97 avg 82.0 std 37.5 min 9 max 194 N 302 board:	H	N	U	A	N	R	B	T	D	I	S	N	X	S	E	S	
+n_words 96 avg 82.1 std 37.5 min 9 max 194 N 303 board:	D	R	S	M	I	W	A	E	M	R	A	E	A	E	O	J	
+n_words 57 avg 82.0 std 37.4 min 9 max 194 N 304 board:	E	N	S	O	F	A	Qu	I	C	T	S	Y	D	A	T	L	
+n_words 29 avg 81.8 std 37.5 min 9 max 194 N 305 board:	T	S	E	E	J	H	L	N	H	D	V	Qu	O	M	D	G	
+n_words 56 avg 81.7 std 37.5 min 9 max 194 N 306 board:	V	A	I	Qu	I	O	X	B	A	R	T	L	A	G	I	L	
+n_words 51 avg 81.6 std 37.4 min 9 max 194 N 307 board:	E	G	V	T	I	Qu	O	N	K	B	D	M	X	H	A	V	
+n_words 110 avg 81.7 std 37.4 min 9 max 194 N 308 board:	W	A	E	O	R	H	N	F	T	S	U	X	O	T	E	S	
+n_words 109 avg 81.8 std 37.4 min 9 max 194 N 309 board:	W	V	Y	D	M	E	G	A	E	L	O	R	I	Z	T	P	
+n_words 143 avg 82.0 std 37.5 min 9 max 194 N 310 board:	A	A	N	T	R	T	S	I	P	D	E	T	O	S	R	I	
+n_words 69 avg 82.0 std 37.4 min 9 max 194 N 311 board:	E	V	E	E	R	I	A	T	O	U	I	S	A	H	I	R	
+n_words 42 avg 81.8 std 37.4 min 9 max 194 N 312 board:	Qu	Z	H	Y	L	P	O	Y	N	E	H	I	O	W	P	Y	
+n_words 42 avg 81.7 std 37.4 min 9 max 194 N 313 board:	N	D	H	R	H	Y	W	S	S	G	T	T	T	A	O	O	
+n_words 52 avg 81.6 std 37.4 min 9 max 194 N 314 board:	M	Z	K	H	E	B	L	T	O	T	E	E	I	E	P	N	
+n_words 136 avg 81.8 std 37.5 min 9 max 194 N 315 board:	E	R	A	S	H	O	O	M	I	D	E	E	V	R	L	P	
+n_words 67 avg 81.8 std 37.4 min 9 max 194 N 316 board:	N	T	N	G	R	H	I	U	S	Y	I	L	T	E	O	T	
+n_words 66 avg 81.7 std 37.4 min 9 max 194 N 317 board:	L	A	A	A	R	M	E	E	A	D	T	G	E	Y	Z	J	
+n_words 62 avg 81.6 std 37.3 min 9 max 194 N 318 board:	C	E	T	H	R	W	T	N	B	N	S	R	S	F	I	E	
+n_words 44 avg 81.5 std 37.3 min 9 max 194 N 319 board:	O	U	H	S	G	I	V	R	F	S	N	P	W	B	E	D	
+n_words 52 avg 81.4 std 37.3 min 9 max 194 N 320 board:	J	U	E	H	V	E	O	T	P	O	T	V	I	I	E	F	
+n_words 99 avg 81.5 std 37.3 min 9 max 194 N 321 board:	G	U	O	X	D	C	O	N	R	N	T	A	M	E	T	H	
+n_words 58 avg 81.4 std 37.2 min 9 max 194 N 322 board:	E	T	U	H	T	I	R	V	G	H	S	T	A	B	S	R	
+n_words 66 avg 81.4 std 37.2 min 9 max 194 N 323 board:	R	E	W	F	P	N	Qu	E	L	O	I	X	V	E	A	I	
+n_words 36 avg 81.2 std 37.2 min 9 max 194 N 324 board:	A	I	W	T	N	W	P	U	A	I	J	E	O	Y	O	V	
+n_words 81 avg 81.2 std 37.2 min 9 max 194 N 325 board:	O	A	F	Qu	H	D	E	S	H	C	I	Y	Y	O	N	R	
+n_words 30 avg 81.1 std 37.2 min 9 max 194 N 326 board:	E	R	T	U	K	E	W	Y	N	N	C	V	L	N	B	C	
+n_words 68 avg 81.0 std 37.2 min 9 max 194 N 327 board:	E	I	A	O	N	O	D	F	E	D	W	H	N	E	N	A	
+n_words 109 avg 81.1 std 37.1 min 9 max 194 N 328 board:	M	E	P	N	D	T	A	Y	T	N	L	G	Y	B	M	E	
+n_words 98 avg 81.2 std 37.1 min 9 max 194 N 329 board:	E	W	E	C	T	M	F	D	E	E	G	A	U	N	T	O	
+n_words 123 avg 81.3 std 37.1 min 9 max 194 N 330 board:	D	O	S	S	R	H	V	E	N	E	T	D	F	B	E	M	
+n_words 59 avg 81.2 std 37.1 min 9 max 194 N 331 board:	B	E	U	R	R	E	Z	A	E	K	O	U	U	N	E	S	
+n_words 67 avg 81.2 std 37.0 min 9 max 194 N 332 board:	I	O	A	Qu	M	H	I	O	H	L	P	N	H	E	T	H	
+n_words 49 avg 81.1 std 37.0 min 9 max 194 N 333 board:	O	R	B	H	D	N	R	C	A	I	Z	H	O	E	D	H	
+n_words 236 avg 81.5 std 37.9 min 9 max 236 N 334 board:	R	E	S	C	H	G	N	E	I	R	A	T	P	B	E	T	
+n_words 64 avg 81.5 std 37.9 min 9 max 236 N 335 board:	O	R	E	N	K	Z	O	I	H	L	T	T	T	I	M	Y	
+n_words 72 avg 81.5 std 37.8 min 9 max 236 N 336 board:	A	I	S	B	T	R	H	C	E	Y	Z	R	E	H	T	N	
+n_words 93 avg 81.5 std 37.8 min 9 max 236 N 337 board:	D	A	S	R	L	H	I	E	U	D	W	A	N	Y	S	Qu	
+n_words 93 avg 81.5 std 37.7 min 9 max 236 N 338 board:	T	O	A	U	Qu	O	R	I	K	L	O	E	N	N	E	T	
+n_words 70 avg 81.5 std 37.7 min 9 max 236 N 339 board:	O	T	H	Qu	T	Y	T	S	W	E	R	U	S	V	K	X	
+n_words 21 avg 81.3 std 37.8 min 9 max 236 N 340 board:	E	U	W	A	E	F	B	W	D	T	T	T	P	L	I	Y	
+n_words 47 avg 81.2 std 37.7 min 9 max 236 N 341 board:	I	E	R	A	N	Y	J	I	O	O	K	T	I	H	R	L	
+n_words 93 avg 81.3 std 37.7 min 9 max 236 N 342 board:	N	J	O	U	D	S	O	R	A	T	T	W	E	L	V	P	
+n_words 67 avg 81.2 std 37.6 min 9 max 236 N 343 board:	O	A	E	U	R	A	K	E	E	U	D	W	R	E	H	E	
+n_words 113 avg 81.3 std 37.6 min 9 max 236 N 344 board:	R	M	E	T	O	A	E	T	A	E	A	W	R	B	T	D	
+n_words 105 avg 81.4 std 37.6 min 9 max 236 N 345 board:	L	T	P	E	U	N	O	T	G	O	S	E	U	O	T	W	
+n_words 39 avg 81.3 std 37.6 min 9 max 236 N 346 board:	I	E	N	Y	T	D	V	T	H	J	Z	O	N	E	S	T	
+n_words 39 avg 81.1 std 37.6 min 9 max 236 N 347 board:	H	H	H	T	E	E	T	T	E	N	S	W	E	U	J	W	
+n_words 58 avg 81.1 std 37.6 min 9 max 236 N 348 board:	T	A	E	Y	I	T	F	S	S	L	V	L	R	N	M	E	
+n_words 107 avg 81.1 std 37.6 min 9 max 236 N 349 board:	E	N	D	L	E	R	S	C	E	B	A	U	T	W	S	W	
+n_words 125 avg 81.3 std 37.6 min 9 max 236 N 350 board:	L	E	R	E	L	F	E	R	N	B	S	T	T	U	O	C	
+n_words 106 avg 81.3 std 37.6 min 9 max 236 N 351 board:	T	P	E	A	A	R	A	U	I	Y	A	E	T	U	N	M	
+n_words 18 avg 81.2 std 37.7 min 9 max 236 N 352 board:	L	B	T	G	O	H	R	F	H	R	T	L	E	Qu	D	M	
+n_words 89 avg 81.2 std 37.6 min 9 max 236 N 353 board:	O	H	E	R	W	V	I	I	I	Z	A	L	U	W	A	S	
+n_words 91 avg 81.2 std 37.5 min 9 max 236 N 354 board:	C	O	A	H	J	E	S	L	K	R	T	H	A	D	M	D	
+n_words 80 avg 81.2 std 37.5 min 9 max 236 N 355 board:	E	U	L	S	V	S	E	N	B	O	D	A	E	T	F	O	
+n_words 62 avg 81.1 std 37.5 min 9 max 236 N 356 board:	T	S	D	J	C	T	O	H	K	R	E	E	D	H	H	C	
+n_words 169 avg 81.4 std 37.7 min 9 max 236 N 357 board:	T	M	G	T	E	A	L	O	N	D	E	A	L	B	L	O	
+n_words 46 avg 81.3 std 37.7 min 9 max 236 N 358 board:	R	L	Y	E	M	U	F	W	H	X	L	O	N	B	A	H	
+n_words 111 avg 81.4 std 37.7 min 9 max 236 N 359 board:	T	R	F	T	S	R	R	D	A	T	U	A	E	E	P	W	
+n_words 47 avg 81.3 std 37.7 min 9 max 236 N 360 board:	Z	O	L	S	I	G	Y	R	A	Qu	T	O	T	R	T	C	
+n_words 41 avg 81.2 std 37.7 min 9 max 236 N 361 board:	J	E	X	S	V	A	H	A	W	D	H	H	T	T	R	O	
+n_words 42 avg 81.1 std 37.7 min 9 max 236 N 362 board:	E	G	E	S	U	R	G	T	K	H	B	Y	O	W	Y	Z	
+n_words 52 avg 81.0 std 37.6 min 9 max 236 N 363 board:	Y	W	H	A	S	T	S	H	Z	A	U	D	I	A	N	Y	
+n_words 94 avg 81.0 std 37.6 min 9 max 236 N 364 board:	U	E	U	W	O	S	B	N	R	O	U	I	R	D	T	Y	
+n_words 46 avg 80.9 std 37.6 min 9 max 236 N 365 board:	A	P	O	I	H	H	E	I	H	O	V	D	E	N	B	E	
+n_words 53 avg 80.8 std 37.6 min 9 max 236 N 366 board:	Y	O	U	P	I	W	N	O	L	N	H	H	K	A	S	L	
+n_words 28 avg 80.7 std 37.6 min 9 max 236 N 367 board:	Y	B	O	A	W	S	O	N	T	N	N	N	A	V	L	T	
+n_words 62 avg 80.7 std 37.6 min 9 max 236 N 368 board:	O	O	A	A	Y	L	K	Y	T	E	N	H	I	I	N	E	
+n_words 173 avg 80.9 std 37.8 min 9 max 236 N 369 board:	S	N	S	E	T	D	U	H	R	A	I	T	O	L	E	V	
+n_words 120 avg 81.0 std 37.8 min 9 max 236 N 370 board:	S	N	E	N	T	O	S	A	O	G	N	U	R	I	L	W	
+n_words 76 avg 81.0 std 37.8 min 9 max 236 N 371 board:	B	N	M	A	E	F	Y	S	L	V	E	L	R	E	M	S	
+n_words 62 avg 80.9 std 37.8 min 9 max 236 N 372 board:	O	A	Y	S	W	A	D	L	E	U	C	L	E	N	O	R	
+n_words 41 avg 80.8 std 37.8 min 9 max 236 N 373 board:	D	T	A	W	A	U	V	G	I	O	S	R	I	S	U	D	
+n_words 94 avg 80.9 std 37.7 min 9 max 236 N 374 board:	L	E	P	N	T	O	L	S	E	O	H	N	X	O	W	I	
+n_words 34 avg 80.7 std 37.7 min 9 max 236 N 375 board:	I	F	Y	O	A	H	I	O	J	T	H	R	H	O	R	L	
+n_words 154 avg 80.9 std 37.9 min 9 max 236 N 376 board:	T	I	T	R	L	W	P	N	H	A	G	O	S	E	D	T	
+n_words 156 avg 81.1 std 38.0 min 9 max 236 N 377 board:	N	S	L	U	A	E	T	R	M	E	O	C	A	L	Y	E	
+n_words 43 avg 81.0 std 38.0 min 9 max 236 N 378 board:	U	R	D	A	L	M	Y	T	E	K	T	H	O	T	U	O	
+n_words 157 avg 81.2 std 38.2 min 9 max 236 N 379 board:	O	L	D	M	G	P	T	I	S	O	E	A	W	N	H	S	
+n_words 70 avg 81.2 std 38.1 min 9 max 236 N 380 board:	S	A	E	N	I	W	O	H	K	C	G	I	O	Y	R	E	
+n_words 155 avg 81.4 std 38.3 min 9 max 236 N 381 board:	F	M	O	N	W	E	I	X	T	N	L	R	D	U	O	T	
+n_words 187 avg 81.7 std 38.6 min 9 max 236 N 382 board:	L	O	U	N	A	E	N	T	V	S	R	G	E	A	T	S	
+n_words 58 avg 81.6 std 38.6 min 9 max 236 N 383 board:	G	W	S	U	R	Qu	A	H	B	P	A	Y	U	I	I	L	
+n_words 148 avg 81.8 std 38.7 min 9 max 236 N 384 board:	H	T	H	T	E	S	P	T	V	I	O	S	N	R	L	B	
+n_words 146 avg 82.0 std 38.7 min 9 max 236 N 385 board:	L	O	O	M	S	T	W	B	R	T	L	W	E	A	C	E	
+n_words 61 avg 81.9 std 38.7 min 9 max 236 N 386 board:	O	E	V	E	Y	T	S	Z	S	E	S	I	M	E	A	O	
+n_words 83 avg 81.9 std 38.7 min 9 max 236 N 387 board:	T	L	N	T	T	E	W	O	M	J	H	D	A	G	G	K	
+n_words 77 avg 81.9 std 38.6 min 9 max 236 N 388 board:	H	S	R	F	T	T	O	E	E	E	E	R	H	C	E	E	
+n_words 52 avg 81.8 std 38.6 min 9 max 236 N 389 board:	B	N	D	N	T	E	D	I	T	T	T	S	V	E	F	P	
+n_words 68 avg 81.8 std 38.6 min 9 max 236 N 390 board:	U	E	O	H	Z	I	B	S	N	T	E	F	D	O	E	E	
+n_words 25 avg 81.6 std 38.6 min 9 max 236 N 391 board:	I	T	A	C	L	I	I	Z	K	Y	A	H	G	T	U	U	
+n_words 50 avg 81.6 std 38.6 min 9 max 236 N 392 board:	S	V	F	N	N	E	J	H	L	M	A	L	S	V	W	H	
+n_words 114 avg 81.6 std 38.6 min 9 max 236 N 393 board:	W	D	E	H	O	S	B	Y	E	I	O	S	W	L	N	N	
+n_words 59 avg 81.6 std 38.5 min 9 max 236 N 394 board:	S	Qu	P	P	Y	L	W	A	X	I	T	C	G	V	E	E	
+n_words 64 avg 81.5 std 38.5 min 9 max 236 N 395 board:	I	I	N	G	B	I	M	S	O	E	T	V	H	O	T	I	
+n_words 115 avg 81.6 std 38.5 min 9 max 236 N 396 board:	N	V	Y	I	O	S	T	A	E	A	L	W	B	D	A	C	
+n_words 51 avg 81.5 std 38.5 min 9 max 236 N 397 board:	E	I	F	B	Qu	E	O	E	L	O	I	S	R	E	R	R	
+n_words 52 avg 81.5 std 38.5 min 9 max 236 N 398 board:	E	R	Z	H	D	G	U	O	B	E	T	W	T	C	K	R	
+n_words 52 avg 81.4 std 38.4 min 9 max 236 N 399 board:	Z	E	N	T	E	N	T	H	B	K	E	E	L	O	Y	U	
+n_words 75 avg 81.4 std 38.4 min 9 max 236 N 400 board:	K	O	T	B	T	N	E	T	H	V	E	T	Z	R	D	N	
+n_words 99 avg 81.4 std 38.4 min 9 max 236 N 401 board:	E	T	A	E	B	S	R	I	A	T	V	L	I	A	T	Qu	
+n_words 68 avg 81.4 std 38.3 min 9 max 236 N 402 board:	A	K	R	G	M	N	S	S	E	D	E	E	I	W	J	I	
+n_words 40 avg 81.3 std 38.3 min 9 max 236 N 403 board:	H	T	I	L	S	N	L	W	C	D	H	V	T	E	O	H	
+n_words 100 avg 81.3 std 38.3 min 9 max 236 N 404 board:	R	H	R	R	Qu	O	Y	E	S	Z	E	P	A	T	A	S	
+n_words 103 avg 81.4 std 38.3 min 9 max 236 N 405 board:	T	W	H	D	Y	A	Y	O	E	I	L	F	W	P	T	I	
+n_words 115 avg 81.5 std 38.2 min 9 max 236 N 406 board:	V	O	Qu	A	I	H	S	T	X	A	P	E	Y	R	U	N	
+n_words 52 avg 81.4 std 38.2 min 9 max 236 N 407 board:	N	T	Qu	T	N	J	H	V	I	H	T	A	R	E	E	X	
+n_words 57 avg 81.3 std 38.2 min 9 max 236 N 408 board:	N	I	W	S	Y	Y	I	N	A	L	S	T	F	O	Y	N	
+n_words 16 avg 81.2 std 38.3 min 9 max 236 N 409 board:	H	D	W	H	E	G	S	T	L	Z	F	C	I	T	B	D	
+n_words 94 avg 81.2 std 38.2 min 9 max 236 N 410 board:	O	L	M	A	P	I	E	S	V	I	S	W	I	G	L	N	
+n_words 108 avg 81.3 std 38.2 min 9 max 236 N 411 board:	R	S	L	H	A	M	R	I	I	O	O	E	R	N	E	V	
+n_words 101 avg 81.3 std 38.2 min 9 max 236 N 412 board:	G	E	R	H	Y	T	E	J	O	V	L	M	D	P	O	Qu	
+n_words 87 avg 81.3 std 38.1 min 9 max 236 N 413 board:	O	T	L	S	O	H	D	H	B	A	H	A	E	S	W	T	
+n_words 50 avg 81.3 std 38.1 min 9 max 236 N 414 board:	H	T	F	J	Y	T	N	N	S	T	U	C	Y	E	A	I	
+n_words 137 avg 81.4 std 38.2 min 9 max 236 N 415 board:	N	P	E	M	A	N	I	O	I	L	L	E	P	T	E	E	
+n_words 137 avg 81.5 std 38.2 min 9 max 236 N 416 board:	Qu	F	T	E	B	S	R	O	O	T	E	R	A	I	L	E	
+n_words 42 avg 81.4 std 38.2 min 9 max 236 N 417 board:	F	I	E	W	O	X	I	I	T	H	A	T	N	L	O	I	
+n_words 34 avg 81.3 std 38.3 min 9 max 236 N 418 board:	Qu	E	A	Z	A	B	U	O	T	V	W	T	A	S	V	L	
+n_words 54 avg 81.3 std 38.2 min 9 max 236 N 419 board:	E	D	B	C	A	W	S	N	K	L	C	H	D	E	H	I	
+n_words 110 avg 81.3 std 38.2 min 9 max 236 N 420 board:	D	P	B	E	U	N	E	A	T	L	E	N	C	E	X	S	
+n_words 40 avg 81.2 std 38.2 min 9 max 236 N 421 board:	E	Z	R	E	I	T	H	D	S	B	T	S	S	T	D	O	
+n_words 98 avg 81.3 std 38.2 min 9 max 236 N 422 board:	E	A	L	T	A	U	P	E	E	E	O	S	L	O	W	V	
+n_words 50 avg 81.2 std 38.2 min 9 max 236 N 423 board:	B	L	I	C	W	D	M	W	V	Qu	E	G	P	L	S	E	
+n_words 51 avg 81.1 std 38.2 min 9 max 236 N 424 board:	C	R	W	I	U	T	Z	O	A	A	T	E	K	C	N	X	
+n_words 90 avg 81.1 std 38.1 min 9 max 236 N 425 board:	R	H	A	I	T	A	A	E	W	Y	T	O	A	N	R	E	
+n_words 113 avg 81.2 std 38.1 min 9 max 236 N 426 board:	D	F	O	E	I	M	E	Y	N	T	L	N	E	U	O	O	
+n_words 110 avg 81.3 std 38.1 min 9 max 236 N 427 board:	E	R	N	Y	S	J	N	E	T	E	T	O	P	H	C	H	
+n_words 113 avg 81.4 std 38.1 min 9 max 236 N 428 board:	E	C	O	T	A	Y	T	N	S	Y	O	E	N	E	P	S	
+n_words 34 avg 81.2 std 38.1 min 9 max 236 N 429 board:	N	W	L	D	S	S	Y	O	O	M	L	I	P	T	F	N	
+n_words 65 avg 81.2 std 38.0 min 9 max 236 N 430 board:	A	M	E	I	D	V	S	A	I	T	H	Y	P	R	S	P	
+n_words 53 avg 81.1 std 38.0 min 9 max 236 N 431 board:	H	E	N	I	Y	S	I	H	I	H	T	B	A	Y	V	Z	
+n_words 109 avg 81.2 std 38.0 min 9 max 236 N 432 board:	S	A	I	Y	L	R	O	S	F	A	G	C	Qu	E	V	H	
+n_words 58 avg 81.2 std 38.0 min 9 max 236 N 433 board:	L	A	I	E	O	M	E	V	W	H	D	F	R	T	C	B	
+n_words 62 avg 81.1 std 37.9 min 9 max 236 N 434 board:	E	L	S	H	U	C	W	V	S	I	Y	J	H	T	E	A	
+n_words 109 avg 81.2 std 37.9 min 9 max 236 N 435 board:	P	U	E	E	W	E	M	T	I	L	O	N	W	F	E	S	
+n_words 91 avg 81.2 std 37.9 min 9 max 236 N 436 board:	K	M	T	T	V	D	J	T	U	R	I	E	N	A	E	L	
+n_words 65 avg 81.2 std 37.9 min 9 max 236 N 437 board:	O	Y	D	I	E	W	A	J	L	N	N	R	A	Y	Qu	R	
+n_words 25 avg 81.0 std 37.9 min 9 max 236 N 438 board:	R	T	L	V	F	G	W	H	E	N	T	T	A	I	C	M	
+n_words 39 avg 80.9 std 37.9 min 9 max 236 N 439 board:	H	D	T	M	E	T	F	L	N	Y	V	T	S	O	I	T	
+n_words 112 avg 81.0 std 37.9 min 9 max 236 N 440 board:	O	N	O	T	E	R	G	Qu	E	C	I	G	E	F	A	T	
+n_words 110 avg 81.1 std 37.9 min 9 max 236 N 441 board:	I	L	S	U	T	M	N	H	N	E	O	Y	O	G	A	S	
+n_words 70 avg 81.0 std 37.8 min 9 max 236 N 442 board:	W	S	B	Y	F	N	A	L	N	O	M	W	O	Y	X	H	
+n_words 98 avg 81.1 std 37.8 min 9 max 236 N 443 board:	S	E	I	Y	L	T	C	M	N	E	D	E	F	B	T	R	
+n_words 25 avg 81.0 std 37.9 min 9 max 236 N 444 board:	U	U	N	S	F	C	T	U	V	D	T	B	I	H	V	L	
+n_words 91 avg 81.0 std 37.8 min 9 max 236 N 445 board:	S	M	S	O	D	N	G	U	A	D	R	A	E	E	I	O	
+n_words 119 avg 81.1 std 37.8 min 9 max 236 N 446 board:	R	L	E	N	T	A	E	B	O	G	H	T	E	T	H	F	
+n_words 145 avg 81.2 std 37.9 min 9 max 236 N 447 board:	H	E	T	P	E	T	Y	H	H	D	A	L	I	N	O	C	
+n_words 90 avg 81.2 std 37.9 min 9 max 236 N 448 board:	E	H	I	T	T	D	E	V	H	O	K	S	S	O	O	A	
+n_words 102 avg 81.3 std 37.8 min 9 max 236 N 449 board:	Y	K	E	E	R	Qu	D	N	E	O	C	O	A	T	H	N	
+n_words 67 avg 81.2 std 37.8 min 9 max 236 N 450 board:	O	A	E	H	H	H	P	O	U	L	E	T	Y	I	D	I	
+n_words 90 avg 81.3 std 37.8 min 9 max 236 N 451 board:	T	S	A	M	E	T	S	P	H	P	R	R	B	T	E	T	
+n_words 67 avg 81.2 std 37.7 min 9 max 236 N 452 board:	M	V	O	Y	T	P	D	N	A	A	X	E	N	T	E	O	
+n_words 62 avg 81.2 std 37.7 min 9 max 236 N 453 board:	B	N	I	I	A	I	V	M	N	K	R	E	W	I	N	H	
+n_words 32 avg 81.1 std 37.7 min 9 max 236 N 454 board:	A	F	A	I	H	Y	E	O	U	E	G	M	E	W	O	E	
+n_words 53 avg 81.0 std 37.7 min 9 max 236 N 455 board:	E	A	L	I	I	W	H	H	S	I	O	A	Y	N	N	I	
+n_words 40 avg 80.9 std 37.7 min 9 max 236 N 456 board:	E	H	S	A	Y	H	U	E	U	C	L	V	O	S	H	R	
+n_words 26 avg 80.8 std 37.8 min 9 max 236 N 457 board:	S	O	U	G	D	Z	N	W	J	O	F	D	E	U	W	D	
+n_words 99 avg 80.8 std 37.7 min 9 max 236 N 458 board:	R	I	N	W	E	I	O	M	X	Y	H	S	W	A	T	I	
+n_words 79 avg 80.8 std 37.7 min 9 max 236 N 459 board:	N	T	E	T	H	E	D	M	O	M	T	S	O	E	R	H	
+n_words 97 avg 80.9 std 37.6 min 9 max 236 N 460 board:	L	V	G	O	I	N	P	T	E	Y	O	M	T	S	Z	R	
+n_words 76 avg 80.9 std 37.6 min 9 max 236 N 461 board:	E	T	D	R	E	R	D	I	T	N	S	O	A	P	H	O	
+n_words 46 avg 80.8 std 37.6 min 9 max 236 N 462 board:	P	S	R	T	O	Z	E	N	J	T	L	T	I	Qu	R	E	
+n_words 59 avg 80.7 std 37.6 min 9 max 236 N 463 board:	G	I	A	I	D	E	H	Qu	N	T	D	T	S	T	O	A	
+n_words 22 avg 80.6 std 37.6 min 9 max 236 N 464 board:	V	V	I	Y	A	E	I	B	H	E	F	E	Qu	E	N	H	
+n_words 110 avg 80.7 std 37.6 min 9 max 236 N 465 board:	I	E	Z	I	T	W	L	P	I	E	E	Qu	O	N	S	B	
+n_words 122 avg 80.8 std 37.6 min 9 max 236 N 466 board:	C	A	T	L	H	K	A	E	E	E	Y	T	L	W	N	O	
+n_words 74 avg 80.8 std 37.6 min 9 max 236 N 467 board:	B	E	O	E	Y	S	R	P	N	S	N	P	H	D	I	V	
+n_words 51 avg 80.7 std 37.6 min 9 max 236 N 468 board:	H	Y	F	T	O	L	H	Z	A	E	T	X	U	E	L	S	
+n_words 205 avg 81.0 std 38.0 min 9 max 236 N 469 board:	D	E	A	U	R	D	B	A	O	E	R	O	C	H	T	S	
+n_words 32 avg 80.9 std 38.0 min 9 max 236 N 470 board:	R	R	J	Y	I	P	W	E	T	T	C	C	R	S	E	R	
+n_words 161 avg 81.0 std 38.1 min 9 max 236 N 471 board:	B	Y	Qu	N	H	M	I	T	D	L	A	R	U	R	P	E	
+n_words 141 avg 81.2 std 38.2 min 9 max 236 N 472 board:	O	H	O	N	E	A	R	A	I	W	T	E	D	N	O	T	
+n_words 97 avg 81.2 std 38.2 min 9 max 236 N 473 board:	N	H	B	S	X	T	A	S	R	U	E	O	N	M	T	T	
+n_words 108 avg 81.2 std 38.1 min 9 max 236 N 474 board:	T	E	I	W	I	R	L	O	H	T	U	F	R	T	E	B	
+n_words 65 avg 81.2 std 38.1 min 9 max 236 N 475 board:	E	G	E	O	T	H	O	T	O	X	O	R	I	I	S	N	
+n_words 80 avg 81.2 std 38.1 min 9 max 236 N 476 board:	A	T	U	T	Z	A	U	K	W	A	N	R	H	R	E	E	
+n_words 48 avg 81.1 std 38.1 min 9 max 236 N 477 board:	W	W	I	A	T	I	O	H	E	O	F	Y	T	M	G	Z	
+n_words 92 avg 81.2 std 38.0 min 9 max 236 N 478 board:	E	T	P	D	A	Y	L	C	S	H	O	G	T	A	H	S	
+n_words 99 avg 81.2 std 38.0 min 9 max 236 N 479 board:	L	T	W	C	R	E	A	L	O	Z	M	W	E	B	T	K	
+n_words 56 avg 81.1 std 38.0 min 9 max 236 N 480 board:	N	G	L	E	V	T	O	E	N	T	N	O	S	O	V	L	
+n_words 180 avg 81.3 std 38.2 min 9 max 236 N 481 board:	F	Qu	T	E	L	A	I	H	S	T	R	E	T	T	E	O	
+n_words 85 avg 81.4 std 38.1 min 9 max 236 N 482 board:	I	H	E	Qu	S	T	M	L	D	E	G	E	T	B	S	N	
+n_words 59 avg 81.3 std 38.1 min 9 max 236 N 483 board:	E	H	T	I	A	E	F	E	B	D	E	Z	Qu	D	I	H	
+n_words 74 avg 81.3 std 38.1 min 9 max 236 N 484 board:	A	T	N	E	T	M	O	S	C	S	S	T	T	O	H	R	
+n_words 60 avg 81.3 std 38.1 min 9 max 236 N 485 board:	U	N	S	E	V	R	I	E	F	W	G	B	H	L	E	L	

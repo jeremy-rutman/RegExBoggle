@@ -41,7 +41,9 @@ def find_words(letter_matrix):
         for j in range(board_size):
             words = find_words_from_here(letter_matrix,(i,j),word_so_far='')
             print(f'words starting from {i},{j}:{words}')
-            all_words+=words   # this should have a check for dupes. Or de-dupe at end
+            for word in words: # check for dupes. Or de-dupe at end
+                if not word in all_words:
+                    all_words.append(word)
     return all_words
 
 
@@ -65,7 +67,7 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     current_matrix[i][j]=die_used_in_word
     if not can_word_start_like_this(word_so_far):
         return []
-    if word_so_far.lower() in LEGAL_WORDS:
+    if word_so_far.lower() in LEGAL_WORDS:   #this may be slower than gathering all potential words and then using set.intersection
         allwords.append( word_so_far)
     for neighbor in neighbors:
         words = find_words_from_here(current_matrix,neighbor,word_so_far)
@@ -78,6 +80,8 @@ def can_word_start_like_this(word_so_far):
     # this check should kick out words that can't possibly begin like this
     # currently pretty inefficient  , there is prob. some smart way to do this
     # we already checked if the word itself is in the dictionary of legal words, so no need to check that
+    if set.intersection(set.REGEX_CHARS,set(word_so_far)):   #just allow everything for now
+        return True
     l = len(word_so_far)
     word_beginnings_of_greater_length = [word[0:l] for word in LEGAL_WORDS if len(word)>l]
     if word_so_far.lower() in word_beginnings_of_greater_length:
@@ -85,21 +89,29 @@ def can_word_start_like_this(word_so_far):
     return False
 
 def board_stats():
-
     all_results=[]
-    while(1):
-        board = generate_boggleboard(STANDARD_DIES)
-        print_board(board)
-        n_words=len(find_words(board))
-        all_results.append(n_words)
-        avg = np.mean(all_results)
-        std = np.std(all_results)
-        min = np.min(all_results)
-        max = np.max(all_results)
-        print(f'n words {n_words} avg {avg} std {std}')
-        print_board(board)
-        with open('most_prolific_board.txt','a') as fp:
-            fp.write(f'n_words {n_words} avg {avg} std {std} min {min} max {max} N {len(all_results)} board:\t')
+    dies=STANDARD_DIES
+    with open('board_stats.txt', 'a') as fp:
+        fp.write('dies ')
+        for i,die in enumerate(dies):
+            fp.write(f'die {i}:
+                     for s in die:
+                fp.write(f'die {i}:{s}\t')
+        fp.write('\n')
+        while(1):
+            board = generate_boggleboard(dies)
+            print_board(board)
+            words = sorted(find_words(board))
+            print(f'all words: {words}')
+
+            n_words=len(words)
+            all_results.append(n_words)
+            avg = np.mean(all_results)
+            std = np.std(all_results)
+            min = np.min(all_results)
+            max = np.max(all_results)
+            print(f'n words {n_words} avg {avg:.3} std {std:.3}')
+            fp.write(f'n_words {n_words} \tavg {avg:.3} \tstd {std:.3} \tmin {min} \tmax {max} \tN {len(all_results)} \tboard:\t')
             for row in range(4):
                 for col in range(4):
                     fp.write(f'{board[row][col]}\t')
@@ -125,6 +137,24 @@ STANDARD_DIES = [
         ['H','I','M','N','U','Qu'],
         ['H','L','N','N','R','Z']]
 
+ALTERNATE_DIES = [
+        ['.','A','E','E','G','N'],
+        ['A','B','B','J','O','O'],
+        ['A','C','H','O','P','S'],
+        ['A','F','F','K','P','S'],
+        ['A','O','O','T','T','W'],
+        ['C','I','M','O','T','U'],
+        ['D','E','I','L','R','X'],
+        ['D','E','L','R','V','Y'],
+        ['D','I','S','T','T','Y'],
+        ['E','E','G','H','N','W'],
+        ['E','E','I','N','S','U'],
+        ['E','H','R','T','V','W'],
+        ['E','I','O','S','S','T'],
+        ['E','L','R','T','T','Y'],
+        ['H','I','M','N','U','Qu'],
+        ['H','L','N','N','R','Z']]
+REGEX_CHARS = ['.','*']
 LEGAL_WORDS = read_dictionary()
 
 board_stats()
