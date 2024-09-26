@@ -1,5 +1,5 @@
 # see http://www.bananagrammer.com/2013/10/the-boggle-cube-redesign-and-its-effect.html
-
+# 10:23 at n=11 10:29 n19 10:32 n26  restart 10:42
 import random
 import numpy as np
 import re
@@ -46,8 +46,9 @@ def find_words(letter_matrix):
             words = find_words_from_here(letter_matrix,(i,j),word_so_far='')
             print(f'words starting from {i},{j}:{words}')
             for word in words: # check for dupes. Or de-dupe at end
+                word = word.lower()
                 if not word in all_words:
-                    all_words.append(word.lower())
+                    all_words.append(word)
     all_with_regex = regex_matches_to_all_matches(all_words)
     return all_with_regex
 
@@ -112,7 +113,7 @@ def is_this_a_legal_word(word_so_far):
     myregex = re.compile(regex_str)
     for word in LEGAL_WORDS:
         if myregex.match(word):
-            print(f'{word} matches {regex_str}')
+#            print(f'{word} matches {regex_str}')
             return True
     return False
 
@@ -122,6 +123,7 @@ def regex_matches_to_all_matches(wordlist): # this is zach's phase 2
     for word in wordlist:
         if not (set.intersection(set(REGEX_CHARS), set(word))):  # no regex chars
             allwords.append(word.lower())
+            continue
         regex_str = transform_to_legal_regex(word)
         if not regex_str:  # no possible regex ilke this
             print('this should not happen')
@@ -132,8 +134,9 @@ def regex_matches_to_all_matches(wordlist): # this is zach's phase 2
                 print(f'{mword} matches {regex_str} .')
                 if not mword in allwords:
                     allwords.append(mword)
-    print(f'outgoing wordlist:{allwords}')
+    allwords = list(set(allwords)) # there are still duplicates showing up somehow, this removes them
     allwords=sorted(allwords)
+    print(f'outgoing wordlist:{allwords}')
     return allwords
 
 def transform_to_legal_regex(word_so_far):
@@ -211,8 +214,9 @@ def board_stats(dies):
             min = np.min(all_results)
             max = np.max(all_results)
             print(f'n words {n_words} avg {avg:.3} std {std:.3}')
-            fp.write(f'\tn_words {n_words} \tavg {avg:.3} \tstd {std:.3} \tmin {min} \tmax {max} \tN {len(all_results)} \tboard:\twords:{words}')
+            fp.write(f'\tn_words {n_words} \tavg {avg:.3} \tstd {std:.3} \tmin {min} \tmax {max} \tN {len(all_results)}\twords:{words}')
             fp.write('\n')
+            fp.flush()
         fp.close()
 
 STANDARD_DIES = [
@@ -252,6 +256,7 @@ ALTERNATE_DIES = [
         ['H','L','N','N','R','Z']]
 
 
+#board_stats(STANDARD_DIES)
 board_stats(ALTERNATE_DIES)
 #board = generate_boggleboard(STANDARD_DIES)
 board = [['R',	'I',	'E',	'L'],
