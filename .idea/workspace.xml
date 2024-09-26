@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="legal words are 3 letters or more, not 4...">
+    <list default="true" id="4d2044fe-fb07-4141-9a0b-5c4f996d42e8" name="Changes" comment="dealing with hyphens - can currently find if there's at least one match (and if word can start like this). Doesn't generate all matches, hits a  bug somewhere.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/most_prolific_board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/most_prolific_board.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +54,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.RegExBoggle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Unnamed.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.generate_words.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/jr/Dropbox/projects/PycharmProjects/RegExBoggle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.RegExBoggle.executor": "Debug",
+    "Python.Unnamed.executor": "Debug",
+    "Python.generate_words.executor": "Run",
+    "Python.random.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/jr/Dropbox/projects/PycharmProjects/RegExBoggle"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="RegExBoggle" type="PythonConfigurationType" factoryName="Python">
       <module name="RegExScrabble" />
@@ -299,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726499450487</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="legal words are 3 letters or more, not 4...">
+      <option name="closed" value="true" />
+      <created>1726765699210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726765699210</updated>
+    </task>
+    <task id="LOCAL-00026" summary="better readme">
+      <option name="closed" value="true" />
+      <created>1726765940742</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726765940742</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dealing with hyphens - can currently find if there's at least one match (and if word can start like this). Doesn't generate all matches, hits a  bug somewhere.">
+      <option name="closed" value="true" />
+      <created>1727350044907</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350044907</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +351,34 @@
     <MESSAGE value="keep track of avg and std of n_words to compare standard boggle w regex" />
     <MESSAGE value="more stats, write every time" />
     <MESSAGE value="legal words are 3 letters or more, not 4..." />
-    <option name="LAST_COMMIT_MESSAGE" value="legal words are 3 letters or more, not 4..." />
+    <MESSAGE value="better readme" />
+    <MESSAGE value="dealing with hyphens - can currently find if there's at least one match (and if word can start like this). Doesn't generate all matches, hits a  bug somewhere." />
+    <option name="LAST_COMMIT_MESSAGE" value="dealing with hyphens - can currently find if there's at least one match (and if word can start like this). Doesn't generate all matches, hits a  bug somewhere." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate_words.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate_words.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generate_words.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(word_so_far)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
