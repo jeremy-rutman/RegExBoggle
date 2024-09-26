@@ -2,9 +2,12 @@
 
 import random
 import numpy as np
+import re
 from typing import LiteralString
 
-REGEX_CHARS = ['.','*']
+from duplicity.cli_data import trans
+
+REGEX_CHARS = ['-','.','*']
 
 def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
     words = []
@@ -70,7 +73,7 @@ def find_words_from_here(letter_matrix,position,word_so_far):
     current_matrix[i][j]=die_used_in_word
     if not can_word_start_like_this(word_so_far):
         return []
-    if word_so_far.lower() in LEGAL_WORDS:   #this may be slower than gathering all potential words and then using set.intersection
+    if is_this_a_legal_word(word_so_far):   #this may be slower than gathering all potential words and then using set.intersection
         allwords.append( word_so_far)
     for neighbor in neighbors:
         words = find_words_from_here(current_matrix,neighbor,word_so_far)
@@ -79,12 +82,75 @@ def find_words_from_here(letter_matrix,position,word_so_far):
                 allwords.append(word)
     return allwords
 
+def is_this_a_legal_word(word_so_far):
+    '''
+    #todo deal with consecutive hyphens , i guess illegal
+    :param word_so_far:
+    :return:
+    '''
+    # for testing purposes
+    if len(word_so_far)>8:
+        return False
+    if not(set.intersection(set(REGEX_CHARS),set(word_so_far))):   #no regex chars
+        if (word_so_far).lower() in LEGAL_WORDS:
+            return True
+        return False
+    # at least 5 chars for a hyphen regex like AB-CD
+    if '-' in word_so_far:
+        if len(word_so_far) < 5:
+            return False
+        positions = [pos for pos, char in enumerate(word_so_far) if char == '-']
+        # is last char a '-' , if so not a word
+        if positions[-1] == len(word_so_far):
+            return False
+        # is first char a hyphen, if so not legal word
+        if positions[0] == 0:
+            return False
+    regex_str = transform_to_legal_regex(word_so_far)
+    if not regex_str: #no possible regex ilke this
+        return False
+    regex_str = r'^' + regex_str + r'$'
+    myregex = re.compile(regex_str)
+    for word in LEGAL_WORDS:
+        if myregex.match(word):
+            print(f'{word} matches {regex_str}')
+            return True
+    return False
+
+def transform_to_legal_regex(word_so_far):
+    regex_str = word_so_far
+    if '-' in word_so_far:
+        prev_pos = 0
+        positions = [pos for pos, char in enumerate(word_so_far) if char == '-']
+        # is first char a hyphen, if so not legal word
+        if positions[0] == 0:
+            return False
+        for pos in positions: #not working for more than one -
+            if pos+1 ==len(word_so_far): #deal with trailing -
+                regex_str = regex_str[0:pos-1] + r'['+ regex_str[pos-1]+r'-' +regex_str[pos+1]+ r']'
+            else:
+                regex_str = regex_str[0:pos-1] + r'['+ regex_str[pos-1]+r'-' +regex_str[pos+1]+ r']'+regex_str[pos+2:]
+
+            prev_pos = pos
+    regex_str = regex_str.lower()
+    return(regex_str)
+
 def can_word_start_like_this(word_so_far):
     # this check should kick out words that can't possibly begin like this
     # currently pretty inefficient  , there is prob. some smart way to do this
     # we already checked if the word itself is in the dictionary of legal words, so no need to check that
-    if set.intersection(set(REGEX_CHARS),set(word_so_far)):   #just allow everything for now
-        return True
+    if set.intersection(set(REGEX_CHARS),set(word_so_far)):   #
+        if len(word_so_far)<3: #avoids hard matching problem, just allow everything for now
+            return True
+        regex_str = transform_to_legal_regex(word_so_far)
+        if not regex_str:
+            return False
+        regex_str = r'^' + regex_str
+        myregex = re.compile(regex_str)
+        for word in LEGAL_WORDS:
+            if myregex.match(word):
+                return True
+        return False
     l = len(word_so_far)
     word_beginnings_of_greater_length = [word[0:l] for word in LEGAL_WORDS if len(word)>l]
     if word_so_far.lower() in word_beginnings_of_greater_length:
@@ -162,13 +228,18 @@ ALTERNATE_DIES = [
 #board_stats()
 #board = generate_boggleboard(STANDARD_DIES)
 board = [['R',	'I',	'E',	'L'],
-['A',	'Qu',	'D',	'E'	],
-['T'	,'V',	'R',	'P'],
-['O',	'C',	'I',	'T'	]]
+    ['A',	'Qu',	'D',	'E'	],
+    ['T'	,'V',	'R',	'P'],
+    ['O',	'C',	'I',	'T'	]]
 board = [[  'S'	,'S',	'X',	'K'],
-[    'D',	'S',	'N',	'T'],
+    ['D',	'S',	'N',	'T'],
     ['W',	'V',	'G',	'T'],
-[    'H',	'A',	'Z',	'W']]
+    ['H',	'A',	'Z',	'W']]
+test_hyphen = [[  'S'	,'S',	'X',	'K'],
+    ['-',	'S',	'N',	'T'],
+    ['W',	'V',	'G',	'T'],
+    ['H',	'E',	'Z',	'W']]
+board = test_hyphen
 print_board(board)
 found_words = find_words(board)
 print(found_words)
