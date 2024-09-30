@@ -13,6 +13,7 @@ def read_dictionary(dictionaryname="scrabble_official_enable1.txt"):
         words = fp.readlines()
         words = [word.rstrip('\n') for word in words]
         words = [word for word in words if len(word)>2] #legal boggle words have length 3 or more
+        words = set(words) # 'if x in set(list)' is apparently indexed and hence much faster than 'if x in list'
         print(f'{len(words)} legal boggle words in dictionary {dictionaryname}')
         return words
 
@@ -131,7 +132,7 @@ def regex_matches_to_all_matches(wordlist): # this is zach's phase 2
         myregex = re.compile(regex_str)
         for mword in LEGAL_WORDS:
             if myregex.match(mword):
-                print(f'{mword} matches {regex_str} .')
+  #              print(f'{mword} matches {regex_str} .')
                 if not mword in allwords:
                     allwords.append(mword)
     allwords = list(set(allwords)) # there are still duplicates showing up somehow, this removes them
@@ -147,25 +148,27 @@ def transform_to_legal_regex(word_so_far):
         # is first char a hyphen, if so not legal word
         if positions[0] == 0:
             return False
-        for pos in positions: #not working for more than one -
+        for pos in positions: #not necessarily working for more than one -
             if pos+1 ==len(word_so_far): #deal with trailing - kick it out for now
                 return False
             if word_so_far[pos-1]>word_so_far[pos+1]: # deal with wraparound later W-S is illegal in meantime
                 return False
             regex_str = regex_str[0:pos-1] + r'['+ regex_str[pos-1]+r'-' +regex_str[pos+1]+ r']'+regex_str[pos+2:]
             prev_pos = pos
+    if '.' in word_so_far:
+        pass #  we don't have to do anything to turn . into  legal regex
     regex_str = regex_str.lower()
     return(regex_str)
 
 def can_word_start_like_this(word_so_far):
     '''
+    this check should kick out words that can't possibly begin like this
+    currently pretty inefficient  , there is prob. some smart way to do this
+    we already checked if the word itself is in the dictionary of legal words, so no need to check that
     todo keep list of stuff already checked to avoid checking multiple times
     :param word_so_far:
     :return:
     '''
-    # this check should kick out words that can't possibly begin like this
-    # currently pretty inefficient  , there is prob. some smart way to do this
-    # we already checked if the word itself is in the dictionary of legal words, so no need to check that
     if set.intersection(set(REGEX_CHARS),set(word_so_far)):   #
         if len(word_so_far)<3: #avoids hard matching problem, just allow everything for now
             return True
@@ -238,7 +241,7 @@ STANDARD_DIES = [
         ['H','L','N','N','R','Z']]
 
 ALTERNATE_DIES = [
-        ['-','A','E','E','G','N'],
+        ['.','A','E','E','G','N'],
         ['A','B','B','J','O','O'],
         ['A','C','H','O','P','S'],
         ['A','F','F','K','P','S'],
@@ -271,7 +274,12 @@ test_hyphen = [[  'S'	,'S',	'X',	'K'],
     ['-',	'S',	'N',	'T'],
     ['W',	'V',	'G',	'T'],
     ['H',	'E',	'Z',	'W']]
-#board = test_hyphen
-#print_board(board)
-#found_words = find_words(board)
-#print(found_words)
+test_dot = [['S', 'S', 'X', 'K'],
+               ['.', 'S', 'N', 'T'],
+               ['W', 'V', 'G', 'T'],
+               ['H', 'E', 'Z', 'W']]
+
+# board = test_dot
+# print_board(board)
+# found_words = find_words(board)
+# #print(found_words)
